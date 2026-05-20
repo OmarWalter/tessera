@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<!--Ft8yQvG0eABV3Ahklr_UZ-->
+<html lang="en" class="__variable_245d8d __variable_97c177 dark" style="--font-geist:&#x27;GeistSans&#x27;, &#x27;GeistSans Fallback&#x27;;--font-geist-mono:&#x27;GeistMono&#x27;, ui-monospace, SFMono-Regular, Roboto Mono, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, monospace">
+    <head>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="preload" href="/_next/static/media/27834908180db20f-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="preload" href="/_next/static/media/78fec81b34c4a365.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="stylesheet" href="/_next/static/css/622368f7f0db5441.css" data-precedence="next"/>
+        <link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-d14fcdd6ad0ef713.js"/>
+        <script src="/_next/static/chunks/c7879cf7-9feafa87d60caa99.js" async=""></script>
+        <script src="/_next/static/chunks/3131-18c73fc0728bb1f1.js" async=""></script>
+        <script src="/_next/static/chunks/main-app-6cd8e53e002432e3.js" async=""></script>
+        <script src="/_next/static/chunks/2618-758f7adc6c281117.js" async=""></script>
+        <script src="/_next/static/chunks/132-20852e0d997519bc.js" async=""></script>
+        <script src="/_next/static/chunks/app/layout-7159ba2214834ed6.js" async=""></script>
+        <script src="/_next/static/chunks/app/sdk/page-6f033f4fac347427.js" async=""></script>
+        <script src="/_next/static/chunks/app/global-error-441a57bb6d144f3f.js" async=""></script>
+        <meta name="next-size-adjust" content=""/>
+        <title>SDK - Tessera</title>
+        <meta name="description" content="@tessera/sdk — TypeScript client for the Tessera credit protocol. Drop into any Node.js or Edge runtime, bring your own viem WalletClient, ship credit-aware agents in 3 lines."/>
+        <meta name="robots" content="index, follow"/>
+        <meta property="og:title" content="Tessera - The first credit card built for AI agents"/>
+        <meta property="og:description" content="USDC credit line on Base, underwritten on-chain from your agent&#x27;s settlement history. Draw, spend, repay, all programmable. Limits earn themselves."/>
+        <meta property="og:url" content="https://tessera.fi"/>
+        <meta property="og:site_name" content="Tessera"/>
+        <meta property="og:image" content="https://tessera.fi/og.png"/>
+        <meta property="og:image:width" content="1500"/>
+        <meta property="og:image:height" content="500"/>
+        <meta property="og:image:alt" content="Tessera - The first credit card built for AI agents"/>
+        <meta property="og:type" content="website"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:site" content="@TesseraBase"/>
+        <meta name="twitter:creator" content="@TesseraBase"/>
+        <meta name="twitter:title" content="Tessera - The first credit card built for AI agents"/>
+        <meta name="twitter:description" content="USDC credit line on Base, underwritten on-chain from your agent&#x27;s settlement history. Draw, spend, repay, all programmable."/>
+        <meta name="twitter:image" content="https://tessera.fi/og.png"/>
+        <link rel="icon" href="/icon.svg?6513c8875eaf10e2" type="image/svg+xml" sizes="any"/>
+        <script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script>
+    </head>
+    <body class="bg-ink text-bone antialiased">
+        <div hidden="">
+        <!--$-->
+        <!--/$-->
+        </div>
+        <header class="sticky top-0 z-50 transition-all duration-300 border-b border-transparent bg-transparent">
+            <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-4">
+                <a href="/" class="focus-ring inline-flex items-center gap-3 rounded-sm">
+                    <svg width="26" height="26" viewBox="0 0 76 76" aria-hidden="true" class="text-lumen" style="display:block">
+                        <rect x="0" y="33" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 240ms;transform-origin:5px 38px"></rect>
+                        <rect x="33" y="0" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 240ms;transform-origin:38px 5px"></rect>
+                        <rect x="11" y="33" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 160ms;transform-origin:16px 38px"></rect>
+                        <rect x="33" y="11" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 160ms;transform-origin:38px 16px"></rect>
+                        <rect x="22" y="33" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 80ms;transform-origin:27px 38px"></rect>
+                        <rect x="33" y="22" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 80ms;transform-origin:38px 27px"></rect>
+                        <rect x="33" y="33" width="10" height="10" fill="currentColor" opacity="1" class="animate-tile-pulse" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 0ms;transform-origin:38px 38px"></rect>
+                        <rect x="44" y="33" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 80ms;transform-origin:49px 38px"></rect>
+                        <rect x="33" y="44" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 80ms;transform-origin:38px 49px"></rect>
+                        <rect x="55" y="33" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 160ms;transform-origin:60px 38px"></rect>
+                        <rect x="33" y="55" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 160ms;transform-origin:38px 60px"></rect>
+                        <rect x="66" y="33" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 240ms;transform-origin:71px 38px"></rect>
+                        <rect x="33" y="66" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 240ms;transform-origin:38px 71px"></rect>
+                    </svg>
+                    <span class="font-display text-lg font-medium tracking-tight text-bone">Tessera</span>
+                </a>
+                <nav class="hidden items-center gap-7 text-sm md:flex">
+                    <a href="/" class="font-mono text-[11px] uppercase tracking-[0.18em] text-ash transition-colors duration-200 hover:text-lumen">Home</a>
+                    <a href="/products" class="font-mono text-[11px] uppercase tracking-[0.18em] text-ash transition-colors duration-200 hover:text-lumen">Products</a>
+                    <a href="/docs" class="font-mono text-[11px] uppercase tracking-[0.18em] text-ash transition-colors duration-200 hover:text-lumen">Docs</a>
+                    <a href="/#how" class="font-mono text-[11px] uppercase tracking-[0.18em] text-ash transition-colors duration-200 hover:text-lumen">How it works</a>
+                    <a href="/#faq" class="font-mono text-[11px] uppercase tracking-[0.18em] text-ash transition-colors duration-200 hover:text-lumen">FAQ</a>
+                </nav>
+                <div class="flex items-center gap-4">
+                    <div class="hidden items-center gap-2 lg:flex">
+                        <span class="relative inline-block h-1.5 w-1.5">
+                            <span class="absolute inset-0 rounded-full bg-lumen animate-glow-pulse"></span>
+                        </span>
+                        <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-mute">
+                            base · block
+                            <!-- -->
+                            <span class="num text-bone">27,841,239</span>
+                        </span>
+                    </div>
+                    <a href="/demo" class="btn-lumen focus-ring rounded-sm px-4 py-2 font-mono text-[11px] uppercase tracking-[0.15em]">Try the demo</a>
+                </div>
+            </div>
+        </header>
+        <main class="min-h-screen bg-ink">
+            <section class="relative border-b border-smoke">
+                <div aria-hidden="true" class="pointer-events-none absolute inset-0" style="background-image:radial-gradient(ellipse 55% 50% at 50% 0%, rgba(184,255,62,0.08), transparent 65%)"></div>
+                <div class="relative mx-auto max-w-5xl px-6 pb-16 pt-20 md:pt-28">
+                    <div class="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.18em] ">
+                        <span class="text-mute">[
+                        <!-- -->
+                        S0
+                        <!-- -->
+                        ]</span>
+                        <span class="h-px flex-1 max-w-12 bg-smoke"></span>
+                        <span class="text-bone">SDK · TypeScript · Edge runtime</span>
+                    </div>
+                    <h1 class="mt-7 max-w-3xl font-display text-[clamp(2.4rem,5.6vw,4.5rem)] font-medium leading-[1.02] tracking-[-0.03em] text-bone">
+                        The Tessera SDK.
+                        <!-- -->
+                        <span class="gradient-text-warm">Credit-aware agents in 3 lines.</span>
+                    </h1>
+                    <p class="mt-5 max-w-2xl text-[1.05rem] leading-relaxed text-ash">
+                        <code class="font-mono text-bone">@tessera/sdk</code>
+                        is a TypeScript client for any Node.js or Edge runtime. Bring your own viem WalletClient — addresses, subgraph URL, and link generators are all preset for Base mainnet via
+                        <!-- -->
+                        <code class="font-mono text-bone">TESSERA_BASE_MAINNET</code>
+                        .
+                    </p>
+                    <div class="mt-9 max-w-2xl">
+                        <div class="mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian">
+                            <div class="flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2">
+                                <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-ash">install</span>
+                                <span class="rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen">bash</span>
+                            </div>
+                            <pre class="overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone">
+                                <code class="font-mono">npm install @tessera/sdk viem</code>
+                            </pre>
+                        </div>
+                    </div>
+                    <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+                        <a href="/docs#sdk-reference" class="btn-lumen focus-ring inline-flex items-center justify-center gap-2 rounded-sm px-6 py-3 font-mono text-xs uppercase tracking-[0.18em]">
+                            Full API reference<span aria-hidden="true">→</span>
+                        </a>
+                    </div>
+                    <div class="mt-14 grid grid-cols-1 gap-x-10 gap-y-5 border-t border-smoke pt-7 sm:grid-cols-3">
+                        <div>
+                            <div class="font-mono text-[10px] uppercase tracking-[0.2em] text-mute">Runtime</div>
+                            <div class="num mt-2 font-display text-2xl font-medium tracking-[-0.02em] text-bone md:text-3xl">Node + Edge</div>
+                            <div class="mt-1 font-mono text-[10px] uppercase tracking-[0.18em] text-mute">works anywhere</div>
+                        </div>
+                        <div>
+                            <div class="font-mono text-[10px] uppercase tracking-[0.2em] text-mute">Signer</div>
+                            <div class="num mt-2 font-display text-2xl font-medium tracking-[-0.02em] text-bone md:text-3xl">Any viem</div>
+                            <div class="mt-1 font-mono text-[10px] uppercase tracking-[0.18em] text-mute">bring your own</div>
+                        </div>
+                        <div>
+                            <div class="font-mono text-[10px] uppercase tracking-[0.2em] text-mute">Preset</div>
+                            <div class="num mt-2 font-display text-2xl font-medium tracking-[-0.02em] text-bone md:text-3xl">Base mainnet</div>
+                            <div class="mt-1 font-mono text-[10px] uppercase tracking-[0.18em] text-mute">all addresses included</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="quickstart" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    01
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">In 30 seconds.</h2>
+                    <div class="mt-6">
+                        <p class="mt-4 max-w-3xl text-[15px] leading-relaxed text-ash">Three lines of config gets you on the rails. The SDK ships with every address, subgraph URL, and link generator preset for Base mainnet — no manual wiring.</p>
+                        <div class="mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian">
+                            <div class="flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2">
+                                <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-ash">agent.ts</span>
+                                <span class="rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen">typescript</span>
+                            </div>
+                            <pre class="overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone">
+                                <code class="font-mono">import { Tessera, TESSERA_BASE_MAINNET } from &quot;@tessera/sdk &quot;;
+import { createWalletClient, http } from &quot;viem &quot;;
+import { privateKeyToAccount } from &quot;viem/accounts &quot;;
+import { base } from &quot;viem/chains &quot;;
+
+const wallet = createWalletClient({
+  account: privateKeyToAccount(process.env.AGENT_PK as `0x${string}`),
+  chain: base,
+  transport: http(),
+});
+
+const tessera = new Tessera({
+  ...TESSERA_BASE_MAINNET,
+  walletClient: wallet,
+});
+
+// Read your agent &#x27;s current credit picture
+const profile = await tessera.getAgentProfile(wallet.account.address);
+console.log(&quot;Computed limit:&quot;, profile.creditLimit);   // Phase 1</code>
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="capabilities" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    02
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">What you get.</h2>
+                    <div class="mt-6">
+                        <p class="mt-4 max-w-3xl text-[15px] leading-relaxed text-ash">One client, four surface areas. Same instance handles writes, subgraph reads, deep-link generators, and async watchers — so your agent code reads top-to-bottom without juggling clients.</p>
+                        <div class="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
+                            <div class="rounded-sm border border-smoke bg-obsidian/40 p-6 transition-colors hover:border-lumen/30">
+                                <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">On-chain writes</div>
+                                <h4 class="mt-3 font-mono text-[13px] font-medium leading-[1.4] text-bone">drawCredit · repayCredit · deposit · redeem</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash">Single-method calls for every credit + vault operation. Returns a tx hash you can await with the built-in watchers.</p>
+                            </div>
+                            <div class="rounded-sm border border-smoke bg-obsidian/40 p-6 transition-colors hover:border-lumen/30">
+                                <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">Subgraph reads</div>
+                                <h4 class="mt-3 font-mono text-[13px] font-medium leading-[1.4] text-bone">getAgentProfile · getReputationScore · recentInvoices</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash">Same indexed data the underwriter reads. No GraphQL boilerplate, no schema management — typed responses.</p>
+                            </div>
+                            <div class="rounded-sm border border-smoke bg-obsidian/40 p-6 transition-colors hover:border-lumen/30">
+                                <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">Link generators</div>
+                                <h4 class="mt-3 font-mono text-[13px] font-medium leading-[1.4] text-bone">getPayLink · getProfileLink · getPayMeLink</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash">URL helpers for every Tessera surface. Use anywhere — no wallet required, server-safe.</p>
+                            </div>
+                            <div class="rounded-sm border border-smoke bg-obsidian/40 p-6 transition-colors hover:border-lumen/30">
+                                <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">Async watchers</div>
+                                <h4 class="mt-3 font-mono text-[13px] font-medium leading-[1.4] text-bone">waitForDraw · waitForRepay · waitForFunded</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash">Promise-based waiters for tx finality. Drop into agent automation pipelines without manual polling.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="core-api" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    03
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">Core API.</h2>
+                    <div class="mt-6">
+                        <p class="mt-4 max-w-3xl text-[15px] leading-relaxed text-ash">
+                            The minimal vocabulary your agent needs. Full TypeScript types ship with the package; everything else is in the
+                            <!-- -->
+                            <a href="/docs#sdk-reference" class="text-bone underline decoration-lumen/40 underline-offset-2 hover:decoration-lumen">SDK reference</a>
+                            .
+                        </p>
+                        <h3 class="mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone">Credit operations</h3>
+                        <div class="mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian">
+                            <div class="flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2">
+                                <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-ash">credit.ts</span>
+                                <span class="rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen">typescript</span>
+                            </div>
+                            <pre class="overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone">
+                                <code class="font-mono">// Phase 1 — simulated today via /demo
+await tessera.drawCredit(amountUsdc);
+await tessera.repayCredit(amountUsdc);
+
+// Read your live limit + utilization
+const { creditLimit, drawn, available } =
+  await tessera.getAgentProfile(address);</code>
+                            </pre>
+                        </div>
+                        <h3 class="mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone">Settlement primitives</h3>
+                        <div class="mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian">
+                            <div class="flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2">
+                                <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-ash">settlement.ts</span>
+                                <span class="rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen">typescript</span>
+                            </div>
+                            <pre class="overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone">
+                                <code class="font-mono">// Originator
+await tessera.createInvoice({
+  buyer: &quot;0x…&quot;,
+  faceValueUsdc: 1000n * 10n ** 6n,
+  maturityUnix: Math.floor(Date.now() / 1000) + 14 * 86400,
+  discountBps: 300,                        // 3%
+});
+
+// Buyer
+await tessera.repayInvoice(invoiceId);
+
+// Lender vault
+await tessera.deposit(amountUsdc);
+await tessera.redeem(shares);</code>
+                            </pre>
+                        </div>
+                        <h3 class="mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone">Reads + helpers</h3>
+                        <div class="mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian">
+                            <div class="flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2">
+                                <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-ash">reads.ts</span>
+                                <span class="rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen">typescript</span>
+                            </div>
+                            <pre class="overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone">
+                                <code class="font-mono">// Subgraph reads
+const profile = await tessera.getAgentProfile(address);
+const score   = await tessera.getReputationScore(address);
+const recent  = await tessera.recentInvoices({ agent: address, limit: 25 });
+
+// Link generators — no wallet required, edge-safe
+tessera.getPayLink(invoiceId);             // /pay/&lt;id &gt;tessera.getProfileLink(address);           // /a/&lt;address &gt;tessera.getPayMeLink(address);             // /pay-me/&lt;address &gt;// Async watchers — for agent automation
+await tessera.waitForFunded(invoiceId,  { timeoutMs: 60_000 });
+await tessera.waitForRepaid(invoiceId,  { timeoutMs: 60_000 });
+await tessera.waitForDraw(drawId,       { timeoutMs: 60_000 });</code>
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="built-for-agents" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    04
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">Built for agent runtimes.</h2>
+                    <div class="mt-6">
+                        <div class="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
+                            <div class="rounded-sm border border-smoke bg-obsidian/40 p-6">
+                                <h4 class="font-display text-lg font-medium tracking-[-0.015em] text-bone">Edge runtime safe</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash">Tree-shakes cleanly. No filesystem, no Node-only APIs. Ships into Vercel Edge, Cloudflare Workers, Deno, you name it.</p>
+                            </div>
+                            <div class="rounded-sm border border-smoke bg-obsidian/40 p-6">
+                                <h4 class="font-display text-lg font-medium tracking-[-0.015em] text-bone">Bring your own signer</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash">Accepts any viem WalletClient. Works with browser-injected, Coinbase Smart Wallet, WalletConnect, hosted keystores, MPC.</p>
+                            </div>
+                            <div class="rounded-sm border border-smoke bg-obsidian/40 p-6">
+                                <h4 class="font-display text-lg font-medium tracking-[-0.015em] text-bone">Zero vendor lock-in</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash">Pure functions over public addresses + a public subgraph. Read everything the SDK reads with your own GraphQL client or RPC.</p>
+                            </div>
+                        </div>
+                        <div class="mt-6 rounded-sm border px-5 py-4 text-sm leading-relaxed border-lumen/40 bg-lumen/[0.05] text-bone">
+                            <strong class="text-bone">MCP server</strong>
+                            — a drop-in Model Context Protocol integration for Claude, Cursor, and other agent frameworks — is on the Phase 2 roadmap. Wraps every method above as a native tool. Watch the repo for release.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="resources" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    05
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">Resources.</h2>
+                    <div class="mt-6">
+                        <ul class="mt-2 grid grid-cols-1 gap-3 md:grid-cols-2">
+                            <li>
+                                <a href="/docs#sdk-reference" class="group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60">
+                                    <div class="flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone">
+                                        <span>Full SDK reference</span>
+                                        <span aria-hidden="true" class="text-lumen">→</span>
+                                    </div>
+                                    <p class="mt-2 text-sm leading-relaxed text-ash">Method signatures, options, return types</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/cmxdev1/Tessera" target="_blank" rel="noopener noreferrer" class="group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60">
+                                    <div class="flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone">
+                                        <span>GitHub</span>
+                                        <span aria-hidden="true" class="text-lumen">↗</span>
+                                    </div>
+                                    <p class="mt-2 text-sm leading-relaxed text-ash">Monorepo: contracts, SDK, subgraph, frontend</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://api.studio.thegraph.com/query/1749787/tessera-base/v0.0.1" target="_blank" rel="noopener noreferrer" class="group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60">
+                                    <div class="flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone">
+                                        <span>Subgraph endpoint</span>
+                                        <span aria-hidden="true" class="text-lumen">↗</span>
+                                    </div>
+                                    <p class="mt-2 text-sm leading-relaxed text-ash">Public read endpoint, no auth</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/demo" class="group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60">
+                                    <div class="flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone">
+                                        <span>Credit demo</span>
+                                        <span aria-hidden="true" class="text-lumen">→</span>
+                                    </div>
+                                    <p class="mt-2 text-sm leading-relaxed text-ash">Try the experience before you wire it</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="mt-10 max-w-2xl font-mono text-[10px] uppercase tracking-[0.18em] text-mute">
+                            SDK is open-source under MIT. File issues + PRs on GitHub. Realtime channel:
+                            <!-- -->
+                            <a href="https://t.me/TesseraBase" target="_blank" rel="noopener noreferrer" class="text-bone underline-offset-2 hover:underline">t.me/TesseraBase</a>
+                            .
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--$-->
+        <!--/$-->
+        <script src="/_next/static/chunks/webpack-d14fcdd6ad0ef713.js" id="_R_" async=""></script>
+        <script>
+            (self.__next_f = self.__next_f || []).push([0])
+        </script>
+        <script>
+            self.__next_f.push([1, "1:\"$Sreact.fragment\"\n2:I[54594,[\"2618\",\"static/chunks/2618-758f7adc6c281117.js\",\"132\",\"static/chunks/132-20852e0d997519bc.js\",\"7177\",\"static/chunks/app/layout-7159ba2214834ed6.js\"],\"default\"]\n3:I[25204,[],\"\"]\n4:I[42642,[],\"\"]\n5:I[60133,[\"3713\",\"static/chunks/app/sdk/page-6f033f4fac347427.js\"],\"default\"]\n10:I[16723,[\"4219\",\"static/chunks/app/global-error-441a57bb6d144f3f.js\"],\"default\"]\n:HL[\"/_next/static/media/27834908180db20f-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/78fec81b34c4a365.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/622368f7f0db5441.css\",\"style\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "0:{\"P\":null,\"b\":\"Ft8yQvG0eABV3Ahklr-UZ\",\"p\":\"\",\"c\":[\"\",\"sdk\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"sdk\",{\"children\":[\"__PAGE__\",{}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/622368f7f0db5441.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"__variable_245d8d __variable_97c177 dark\",\"style\":{\"--font-geist\":\"'GeistSans', 'GeistSans Fallback'\",\"--font-geist-mono\":\"'GeistMono', ui-monospace, SFMono-Regular, Roboto Mono, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, monospace\"},\"children\":[\"$\",\"body\",null,{\"className\":\"bg-ink text-bone antialiased\",\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]}]]}],{\"children\":[\"sdk\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"$L5\",null,{}],[\"$\",\"main\",null,{\"className\":\"min-h-screen bg-ink\",\"children\":[[\"$\",\"section\",null,{\"className\":\"relative border-b border-smoke\",\"children\":[[\"$\",\"div\",null,{\"aria-hidden\":true,\"className\":\"pointer-events-none absolute inset-0\",\"style\":{\"backgroundImage\":\"radial-gradient(ellipse 55% 50% at 50% 0%, rgba(184,255,62,0.08), transparent 65%)\"}}],[\"$\",\"div\",null,{\"className\":\"relative mx-auto max-w-5xl px-6 pb-16 pt-20 md:pt-28\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.18em] \",\"children\":[[\"$\",\"span\",null,{\"className\":\"text-mute\",\"children\":[\"[\",\"S0\",\"]\"]}],[\"$\",\"span\",null,{\"className\":\"h-px flex-1 max-w-12 bg-smoke\"}],[\"$\",\"span\",null,{\"className\":\"text-bone\",\"children\":\"SDK · TypeScript · Edge runtime\"}]]}],[\"$\",\"h1\",null,{\"className\":\"mt-7 max-w-3xl font-display text-[clamp(2.4rem,5.6vw,4.5rem)] font-medium leading-[1.02] tracking-[-0.03em] text-bone\",\"children\":[\"The Tessera SDK.\",\" \",[\"$\",\"span\",null,{\"className\":\"gradient-text-warm\",\"children\":\"Credit-aware agents in 3 lines.\"}]]}],[\"$\",\"p\",null,{\"className\":\"mt-5 max-w-2xl text-[1.05rem] leading-relaxed text-ash\",\"children\":[[\"$\",\"code\",null,{\"className\":\"font-mono text-bone\",\"children\":\"@tessera/sdk\"}],\" is a TypeScript client for any Node.js or Edge runtime. Bring your own viem WalletClient — addresses, subgraph URL, and link generators are all preset for Base mainnet via\",\" \",[\"$\",\"code\",null,{\"className\":\"font-mono text-bone\",\"children\":\"TESSERA_BASE_MAINNET\"}],\".\"]}],[\"$\",\"div\",null,{\"className\":\"mt-9 max-w-2xl\",\"children\":[\"$\",\"div\",null,{\"className\":\"mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.18em] text-ash\",\"children\":\"install\"}],[\"$\",\"span\",null,{\"className\":\"rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen\",\"children\":\"bash\"}]]}],\"$L6\"]}]}],\"$L7\",\"$L8\"]}]]}],\"$L9\",\"$La\",\"$Lb\",\"$Lc\",\"$Ld\"]}]],null,\"$Le\"]}],{},null,false]},null,false]},null,false],\"$Lf\",false]],\"m\":\"$undefined\",\"G\":[\"$10\",[]],\"s\":false,\"S\":true}\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "12:I[60433,[],\"OutletBoundary\"]\n14:I[19884,[],\"AsyncMetadataOutlet\"]\n16:I[60433,[],\"ViewportBoundary\"]\n18:I[60433,[],\"MetadataBoundary\"]\n19:\"$Sreact.suspense\"\n6:[\"$\",\"pre\",null,{\"className\":\"overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone\",\"children\":[\"$\",\"code\",null,{\"className\":\"font-mono\",\"children\":\"npm install @tessera/sdk viem\"}]}]\n7:[\"$\",\"div\",null,{\"className\":\"mt-8 flex flex-col gap-3 sm:flex-row\",\"children\":[\"$\",\"a\",null,{\"href\":\"/docs#sdk-reference\",\"className\":\"btn-lumen focus-ring inline-flex items-center justify-center gap-2 rounded-sm px-6 py-3 font-mono text-xs uppercase tracking-[0.18em]\",\"children\":[\"Full API reference\",[\"$\",\"span\",null,{\"aria-hidden\":true,\"children\":\"→\"}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "8:[\"$\",\"div\",null,{\"className\":\"mt-14 grid grid-cols-1 gap-x-10 gap-y-5 border-t border-smoke pt-7 sm:grid-cols-3\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.2em] text-mute\",\"children\":\"Runtime\"}],[\"$\",\"div\",null,{\"className\":\"num mt-2 font-display text-2xl font-medium tracking-[-0.02em] text-bone md:text-3xl\",\"children\":\"Node + Edge\"}],[\"$\",\"div\",null,{\"className\":\"mt-1 font-mono text-[10px] uppercase tracking-[0.18em] text-mute\",\"children\":\"works anywhere\"}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.2em] text-mute\",\"children\":\"Signer\"}],[\"$\",\"div\",null,{\"className\":\"num mt-2 font-display text-2xl font-medium tracking-[-0.02em] text-bone md:text-3xl\",\"children\":\"Any viem\"}],[\"$\",\"div\",null,{\"className\":\"mt-1 font-mono text-[10px] uppercase tracking-[0.18em] text-mute\",\"children\":\"bring your own\"}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.2em] text-mute\",\"children\":\"Preset\"}],[\"$\",\"div\",null,{\"className\":\"num mt-2 font-display text-2xl font-medium tracking-[-0.02em] text-bone md:text-3xl\",\"children\":\"Base mainnet\"}],[\"$\",\"div\",null,{\"className\":\"mt-1 font-mono text-[10px] uppercase tracking-[0.18em] text-mute\",\"children\":\"all addresses included\"}]]}]]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "9:[\"$\",\"section\",null,{\"id\":\"quickstart\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"01\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"In 30 seconds.\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-3xl text-[15px] leading-relaxed text-ash\",\"children\":\"Three lines of config gets you on the rails. The SDK ships with every address, subgraph URL, and link generator preset for Base mainnet — no manual wiring.\"}],[\"$\",\"div\",null,{\"className\":\"mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.18em] text-ash\",\"children\":\"agent.ts\"}],[\"$\",\"span\",null,{\"className\":\"rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen\",\"children\":\"typescript\"}]]}],[\"$\",\"pre\",null,{\"className\":\"overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone\",\"children\":[\"$\",\"code\",null,{\"className\":\"font-mono\",\"children\":\"import { Tessera, TESSERA_BASE_MAINNET } from \\\"@tessera/sdk\\\";\\nimport { createWalletClient, http } from \\\"viem\\\";\\nimport { privateKeyToAccount } from \\\"viem/accounts\\\";\\nimport { base } from \\\"viem/chains\\\";\\n\\nconst wallet = createWalletClient({\\n  account: privateKeyToAccount(process.env.AGENT_PK as `0x${string}`),\\n  chain: base,\\n  transport: http(),\\n});\\n\\nconst tessera = new Tessera({\\n  ...TESSERA_BASE_MAINNET,\\n  walletClient: wallet,\\n});\\n\\n// Read your agent's current credit picture\\nconst profile = await tessera.getAgentProfile(wallet.account.address);\\nconsole.log(\\\"Computed limit:\\\", profile.creditLimit);   // Phase 1\"}]}]]}]]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "a:[\"$\",\"section\",null,{\"id\":\"capabilities\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"02\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"What you get.\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-3xl text-[15px] leading-relaxed text-ash\",\"children\":\"One client, four surface areas. Same instance handles writes, subgraph reads, deep-link generators, and async watchers — so your agent code reads top-to-bottom without juggling clients.\"}],[\"$\",\"div\",null,{\"className\":\"mt-6 grid grid-cols-1 gap-4 md:grid-cols-2\",\"children\":[[\"$\",\"div\",null,{\"className\":\"rounded-sm border border-smoke bg-obsidian/40 p-6 transition-colors hover:border-lumen/30\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":\"On-chain writes\"}],[\"$\",\"h4\",null,{\"className\":\"mt-3 font-mono text-[13px] font-medium leading-[1.4] text-bone\",\"children\":\"drawCredit · repayCredit · deposit · redeem\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Single-method calls for every credit + vault operation. Returns a tx hash you can await with the built-in watchers.\"}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-sm border border-smoke bg-obsidian/40 p-6 transition-colors hover:border-lumen/30\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":\"Subgraph reads\"}],[\"$\",\"h4\",null,{\"className\":\"mt-3 font-mono text-[13px] font-medium leading-[1.4] text-bone\",\"children\":\"getAgentProfile · getReputationScore · recentInvoices\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Same indexed data the underwriter reads. No GraphQL boilerplate, no schema management — typed responses.\"}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-sm border border-smoke bg-obsidian/40 p-6 transition-colors hover:border-lumen/30\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":\"Link generators\"}],[\"$\",\"h4\",null,{\"className\":\"mt-3 font-mono text-[13px] font-medium leading-[1.4] text-bone\",\"children\":\"getPayLink · getProfileLink · getPayMeLink\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"URL helpers for every Tessera surface. Use anywhere — no wallet required, server-safe.\"}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-sm border border-smoke bg-obsidian/40 p-6 transition-colors hover:border-lumen/30\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":\"Async watchers\"}],[\"$\",\"h4\",null,{\"className\":\"mt-3 font-mono text-[13px] font-medium leading-[1.4] text-bone\",\"children\":\"waitForDraw · waitForRepay · waitForFunded\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Promise-based waiters for tx finality. Drop into agent automation pipelines without manual polling.\"}]]}]]}]]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "b:[\"$\",\"section\",null,{\"id\":\"core-api\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"03\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"Core API.\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-3xl text-[15px] leading-relaxed text-ash\",\"children\":[\"The minimal vocabulary your agent needs. Full TypeScript types ship with the package; everything else is in the\",\" \",[\"$\",\"a\",null,{\"href\":\"/docs#sdk-reference\",\"className\":\"text-bone underline decoration-lumen/40 underline-offset-2 hover:decoration-lumen\",\"children\":[\"SDK reference\",\"$undefined\"]}],\".\"]}],[\"$\",\"h3\",null,{\"className\":\"mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone\",\"children\":\"Credit operations\"}],[\"$\",\"div\",null,{\"className\":\"mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.18em] text-ash\",\"children\":\"credit.ts\"}],[\"$\",\"span\",null,{\"className\":\"rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen\",\"children\":\"typescript\"}]]}],[\"$\",\"pre\",null,{\"className\":\"overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone\",\"children\":[\"$\",\"code\",null,{\"className\":\"font-mono\",\"children\":\"// Phase 1 — simulated today via /demo\\nawait tessera.drawCredit(amountUsdc);\\nawait tessera.repayCredit(amountUsdc);\\n\\n// Read your live limit + utilization\\nconst { creditLimit, drawn, available } =\\n  await tessera.getAgentProfile(address);\"}]}]]}],[\"$\",\"h3\",null,{\"className\":\"mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone\",\"children\":\"Settlement primitives\"}],[\"$\",\"div\",null,{\"className\":\"mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.18em] text-ash\",\"children\":\"settlement.ts\"}],[\"$\",\"span\",null,{\"className\":\"rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen\",\"children\":\"typescript\"}]]}],[\"$\",\"pre\",null,{\"className\":\"overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone\",\"children\":[\"$\",\"code\",null,{\"className\":\"font-mono\",\"children\":\"// Originator\\nawait tessera.createInvoice({\\n  buyer: \\\"0x…\\\",\\n  faceValueUsdc: 1000n * 10n ** 6n,\\n  maturityUnix: Math.floor(Date.now() / 1000) + 14 * 86400,\\n  discountBps: 300,                        // 3%\\n});\\n\\n// Buyer\\nawait tessera.repayInvoice(invoiceId);\\n\\n// Lender vault\\nawait tessera.deposit(amountUsdc);\\nawait tessera.redeem(shares);\"}]}]]}],[\"$\",\"h3\",null,{\"className\":\"mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone\",\"children\":\"Reads + helpers\"}],[\"$\",\"div\",null,{\"className\":\"mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.18em] text-ash\",\"children\":\"reads.ts\"}],[\"$\",\"span\",null,{\"className\":\"rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen\",\"children\":\"typescript\"}]]}],[\"$\",\"pre\",null,{\"className\":\"overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone\",\"children\":\"$L11\"}]]}]]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "c:[\"$\",\"section\",null,{\"id\":\"built-for-agents\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"04\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"Built for agent runtimes.\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[[\"$\",\"div\",null,{\"className\":\"mt-6 grid grid-cols-1 gap-4 md:grid-cols-3\",\"children\":[[\"$\",\"div\",null,{\"className\":\"rounded-sm border border-smoke bg-obsidian/40 p-6\",\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-display text-lg font-medium tracking-[-0.015em] text-bone\",\"children\":\"Edge runtime safe\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Tree-shakes cleanly. No filesystem, no Node-only APIs. Ships into Vercel Edge, Cloudflare Workers, Deno, you name it.\"}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-sm border border-smoke bg-obsidian/40 p-6\",\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-display text-lg font-medium tracking-[-0.015em] text-bone\",\"children\":\"Bring your own signer\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Accepts any viem WalletClient. Works with browser-injected, Coinbase Smart Wallet, WalletConnect, hosted keystores, MPC.\"}]]}],[\"$\",\"div\",null,{\"className\":\"rounded-sm border border-smoke bg-obsidian/40 p-6\",\"children\":[[\"$\",\"h4\",null,{\"className\":\"font-display text-lg font-medium tracking-[-0.015em] text-bone\",\"children\":\"Zero vendor lock-in\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Pure functions over public addresses + a public subgraph. Read everything the SDK reads with your own GraphQL client or RPC.\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"mt-6 rounded-sm border px-5 py-4 text-sm leading-relaxed border-lumen/40 bg-lumen/[0.05] text-bone\",\"children\":[[\"$\",\"strong\",null,{\"className\":\"text-bone\",\"children\":\"MCP server\"}],\" — a drop-in Model Context Protocol integration for Claude, Cursor, and other agent frameworks — is on the Phase 2 roadmap. Wraps every method above as a native tool. Watch the repo for release.\"]}]]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "d:[\"$\",\"section\",null,{\"id\":\"resources\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"05\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"Resources.\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[[\"$\",\"ul\",null,{\"className\":\"mt-2 grid grid-cols-1 gap-3 md:grid-cols-2\",\"children\":[[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"/docs#sdk-reference\",\"className\":\"group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone\",\"children\":[[\"$\",\"span\",null,{\"children\":\"Full SDK reference\"}],[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"text-lumen\",\"children\":\"→\"}]]}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Method signatures, options, return types\"}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://github.com/cmxdev1/Tessera\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone\",\"children\":[[\"$\",\"span\",null,{\"children\":\"GitHub\"}],[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"text-lumen\",\"children\":\"↗\"}]]}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Monorepo: contracts, SDK, subgraph, frontend\"}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://api.studio.thegraph.com/query/1749787/tessera-base/v0.0.1\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone\",\"children\":[[\"$\",\"span\",null,{\"children\":\"Subgraph endpoint\"}],[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"text-lumen\",\"children\":\"↗\"}]]}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Public read endpoint, no auth\"}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"/demo\",\"className\":\"group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone\",\"children\":[[\"$\",\"span\",null,{\"children\":\"Credit demo\"}],[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"text-lumen\",\"children\":\"→\"}]]}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Try the experience before you wire it\"}]]}]}]]}],[\"$\",\"p\",null,{\"className\":\"mt-10 max-w-2xl font-mono text-[10px] uppercase tracking-[0.18em] text-mute\",\"children\":[\"SDK is open-source under MIT. File issues + PRs on GitHub. Realtime channel:\",\" \",[\"$\",\"a\",null,{\"href\":\"https://t.me/TesseraBase\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-bone underline-offset-2 hover:underline\",\"children\":\"t.me/TesseraBase\"}],\".\"]}]]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "e:[\"$\",\"$L12\",null,{\"children\":[\"$L13\",[\"$\",\"$L14\",null,{\"promise\":\"$@15\"}]]}]\nf:[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$L16\",null,{\"children\":\"$L17\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$L18\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$19\",null,{\"fallback\":null,\"children\":\"$L1a\"}]}]}]]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "11:[\"$\",\"code\",null,{\"className\":\"font-mono\",\"children\":\"// Subgraph reads\\nconst profile = await tessera.getAgentProfile(address);\\nconst score   = await tessera.getReputationScore(address);\\nconst recent  = await tessera.recentInvoices({ agent: address, limit: 25 });\\n\\n// Link generators — no wallet required, edge-safe\\ntessera.getPayLink(invoiceId);             // /pay/\u003cid\u003e\\ntessera.getProfileLink(address);           // /a/\u003caddress\u003e\\ntessera.getPayMeLink(address);             // /pay-me/\u003caddress\u003e\\n\\n// Async watchers — for agent automation\\nawait tessera.waitForFunded(invoiceId,  { timeoutMs: 60_000 });\\nawait tessera.waitForRepaid(invoiceId,  { timeoutMs: 60_000 });\\nawait tessera.waitForDraw(drawId,       { timeoutMs: 60_000 });\"}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "17:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n13:null\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "1b:I[66644,[],\"IconMark\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "15:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"SDK - Tessera\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"@tessera/sdk — TypeScript client for the Tessera credit protocol. Drop into any Node.js or Edge runtime, bring your own viem WalletClient, ship credit-aware agents in 3 lines.\"}],[\"$\",\"meta\",\"2\",{\"name\":\"robots\",\"content\":\"index, follow\"}],[\"$\",\"meta\",\"3\",{\"property\":\"og:title\",\"content\":\"Tessera - The first credit card built for AI agents\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:description\",\"content\":\"USDC credit line on Base, underwritten on-chain from your agent's settlement history. Draw, spend, repay, all programmable. Limits earn themselves.\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:url\",\"content\":\"https://tessera.fi\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:site_name\",\"content\":\"Tessera\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:image\",\"content\":\"https://tessera.fi/og.png\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:image:width\",\"content\":\"1500\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:image:height\",\"content\":\"500\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:image:alt\",\"content\":\"Tessera - The first credit card built for AI agents\"}],[\"$\",\"meta\",\"11\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:site\",\"content\":\"@TesseraBase\"}],[\"$\",\"meta\",\"14\",{\"name\":\"twitter:creator\",\"content\":\"@TesseraBase\"}],[\"$\",\"meta\",\"15\",{\"name\":\"twitter:title\",\"content\":\"Tessera - The first credit card built for AI agents\"}],[\"$\",\"meta\",\"16\",{\"name\":\"twitter:description\",\"content\":\"USDC credit line on Base, underwritten on-chain from your agent's settlement history. Draw, spend, repay, all programmable.\"}],[\"$\",\"meta\",\"17\",{\"name\":\"twitter:image\",\"content\":\"https://tessera.fi/og.png\"}],[\"$\",\"link\",\"18\",{\"rel\":\"icon\",\"href\":\"/icon.svg?6513c8875eaf10e2\",\"type\":\"image/svg+xml\",\"sizes\":\"any\"}],[\"$\",\"$L1b\",\"19\",{}]],\"error\":null,\"digest\":\"$undefined\"}\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "1a:\"$15:metadata\"\n"])
+        </script>
+    </body>
+</html>
