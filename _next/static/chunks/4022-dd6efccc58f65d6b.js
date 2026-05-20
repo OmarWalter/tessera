@@ -443,7 +443,7 @@
                   className: "hidden items-center gap-7 text-sm md:flex",
                   children: [
                     (0, a.jsx)(l, { href: "/", children: "Home" }),
-                    (0, a.jsx)(l, { href: "/products", children: "Products" }),
+                    // (0, a.jsx)(l, { href: "/products", children: "Products" }),
                     (0, a.jsx)(l, { href: "/docs", children: "Docs" }),
                     (0, a.jsx)(l, { href: "/#how", children: "How it works" }),
                     (0, a.jsx)(l, { href: "/#faq", children: "FAQ" }),

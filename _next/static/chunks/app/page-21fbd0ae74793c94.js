@@ -624,10 +624,10 @@
                           href: "/demo",
                           children: "Credit demo",
                         }),
-                        (0, s.jsx)("a", {
-                          href: "/products",
-                          children: "All products",
-                        }),
+                        // (0, s.jsx)("a", {
+                        //   href: "/products",
+                        //   children: "All products",
+                        // }),
                         (0, s.jsx)("a", { href: "/sdk", children: "SDK" }),
                         (0, s.jsx)("a", { href: "/docs", children: "Docs" }),
                         (0, s.jsx)("a", {
