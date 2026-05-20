@@ -45,13 +45,7 @@
             75;
         return (
           r.path +
-          "?url=" +
-          encodeURIComponent(n) +
-          "&w=" +
-          i +
-          "&q=" +
-          s +
-          (n.startsWith("/_next/static/media/"), "")
+          n
         );
       }
       Object.defineProperty(t, "__esModule", { value: !0 }),
