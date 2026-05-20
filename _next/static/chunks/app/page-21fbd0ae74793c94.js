@@ -662,12 +662,12 @@
                           rel: "noreferrer",
                           children: "X ↗",
                         }),
-                        (0, s.jsx)("a", {
-                          href: "https://t.me/TesseraBase",
-                          target: "_blank",
-                          rel: "noreferrer",
-                          children: "Telegram ↗",
-                        }),
+                        // (0, s.jsx)("a", {
+                        //   href: "https://t.me/TesseraBase",
+                        //   target: "_blank",
+                        //   rel: "noreferrer",
+                        //   children: "Telegram ↗",
+                        // }),
                       ],
                     }),
                     (0, s.jsxs)(l, {
