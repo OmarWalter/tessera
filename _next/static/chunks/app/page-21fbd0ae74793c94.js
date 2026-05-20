@@ -670,14 +670,14 @@
                         // }),
                       ],
                     }),
-                    (0, s.jsxs)(l, {
-                      title: "Legal",
-                      children: [
-                        (0, s.jsx)("a", { href: "#", children: "Privacy" }),
-                        (0, s.jsx)("a", { href: "#", children: "Terms" }),
-                        (0, s.jsx)("a", { href: "#", children: "Disclosures" }),
-                      ],
-                    }),
+                    // (0, s.jsxs)(l, {
+                    //   title: "Legal",
+                    //   children: [
+                    //     (0, s.jsx)("a", { href: "#", children: "Privacy" }),
+                    //     (0, s.jsx)("a", { href: "#", children: "Terms" }),
+                    //     (0, s.jsx)("a", { href: "#", children: "Disclosures" }),
+                    //   ],
+                    // }),
                   ],
                 }),
                 (0, s.jsxs)("div", {
