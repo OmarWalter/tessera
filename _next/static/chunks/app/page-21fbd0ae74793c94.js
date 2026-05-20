@@ -645,12 +645,12 @@
                           href: "#",
                           children: "Architecture",
                         }),
-                        (0, s.jsx)("a", {
-                          href: "https://github.com/cmxdev1/Tessera",
-                          target: "_blank",
-                          rel: "noreferrer",
-                          children: "GitHub ↗",
-                        }),
+                        // (0, s.jsx)("a", {
+                        //   href: "https://github.com/cmxdev1/Tessera",
+                        //   target: "_blank",
+                        //   rel: "noreferrer",
+                        //   children: "GitHub ↗",
+                        // }),
                       ],
                     }),
                     (0, s.jsxs)(l, {
