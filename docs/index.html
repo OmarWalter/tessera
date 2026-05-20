@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<!--Ft8yQvG0eABV3Ahklr_UZ-->
+<html lang="en" class="__variable_245d8d __variable_97c177 dark" style="--font-geist:&#x27;GeistSans&#x27;, &#x27;GeistSans Fallback&#x27;;--font-geist-mono:&#x27;GeistMono&#x27;, ui-monospace, SFMono-Regular, Roboto Mono, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, monospace">
+    <head>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="preload" href="/_next/static/media/27834908180db20f-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="preload" href="/_next/static/media/78fec81b34c4a365.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="stylesheet" href="/_next/static/css/622368f7f0db5441.css" data-precedence="next"/>
+        <link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-d14fcdd6ad0ef713.js"/>
+        <script src="/_next/static/chunks/c7879cf7-9feafa87d60caa99.js" async=""></script>
+        <script src="/_next/static/chunks/3131-18c73fc0728bb1f1.js" async=""></script>
+        <script src="/_next/static/chunks/main-app-6cd8e53e002432e3.js" async=""></script>
+        <script src="/_next/static/chunks/2618-758f7adc6c281117.js" async=""></script>
+        <script src="/_next/static/chunks/132-20852e0d997519bc.js" async=""></script>
+        <script src="/_next/static/chunks/app/layout-7159ba2214834ed6.js" async=""></script>
+        <script src="/_next/static/chunks/app/docs/page-6f033f4fac347427.js" async=""></script>
+        <script src="/_next/static/chunks/app/global-error-441a57bb6d144f3f.js" async=""></script>
+        <meta name="next-size-adjust" content=""/>
+        <title>Docs - Tessera</title>
+        <meta name="description" content="How Tessera Credit works, how the underwriter scores agents, how to integrate the SDK, and how every surface fits together on Base."/>
+        <meta name="robots" content="index, follow"/>
+        <meta property="og:title" content="Tessera - The first credit card built for AI agents"/>
+        <meta property="og:description" content="USDC credit line on Base, underwritten on-chain from your agent&#x27;s settlement history. Draw, spend, repay, all programmable. Limits earn themselves."/>
+        <meta property="og:url" content="https://tessera.fi"/>
+        <meta property="og:site_name" content="Tessera"/>
+        <meta property="og:image" content="https://tessera.fi/og.png"/>
+        <meta property="og:image:width" content="1500"/>
+        <meta property="og:image:height" content="500"/>
+        <meta property="og:image:alt" content="Tessera - The first credit card built for AI agents"/>
+        <meta property="og:type" content="website"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:site" content="@TesseraBase"/>
+        <meta name="twitter:creator" content="@TesseraBase"/>
+        <meta name="twitter:title" content="Tessera - The first credit card built for AI agents"/>
+        <meta name="twitter:description" content="USDC credit line on Base, underwritten on-chain from your agent&#x27;s settlement history. Draw, spend, repay, all programmable."/>
+        <meta name="twitter:image" content="https://tessera.fi/og.png"/>
+        <link rel="icon" href="/icon.svg?6513c8875eaf10e2" type="image/svg+xml" sizes="any"/>
+        <script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script>
+    </head>
+    <body class="bg-ink text-bone antialiased">
+        <div hidden="">
+        <!--$-->
+        <!--/$-->
+        </div>
+        <header class="sticky top-0 z-50 transition-all duration-300 border-b border-transparent bg-transparent">
+            <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-4">
+                <a href="/" class="focus-ring inline-flex items-center gap-3 rounded-sm">
+                    <svg width="26" height="26" viewBox="0 0 76 76" aria-hidden="true" class="text-lumen" style="display:block">
+                        <rect x="0" y="33" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 240ms;transform-origin:5px 38px"></rect>
+                        <rect x="33" y="0" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 240ms;transform-origin:38px 5px"></rect>
+                        <rect x="11" y="33" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 160ms;transform-origin:16px 38px"></rect>
+                        <rect x="33" y="11" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 160ms;transform-origin:38px 16px"></rect>
+                        <rect x="22" y="33" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 80ms;transform-origin:27px 38px"></rect>
+                        <rect x="33" y="22" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 80ms;transform-origin:38px 27px"></rect>
+                        <rect x="33" y="33" width="10" height="10" fill="currentColor" opacity="1" class="animate-tile-pulse" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 0ms;transform-origin:38px 38px"></rect>
+                        <rect x="44" y="33" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 80ms;transform-origin:49px 38px"></rect>
+                        <rect x="33" y="44" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 80ms;transform-origin:38px 49px"></rect>
+                        <rect x="55" y="33" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 160ms;transform-origin:60px 38px"></rect>
+                        <rect x="33" y="55" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 160ms;transform-origin:38px 60px"></rect>
+                        <rect x="66" y="33" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 240ms;transform-origin:71px 38px"></rect>
+                        <rect x="33" y="66" width="10" height="10" fill="currentColor" opacity="1" class="" style="transition:opacity 240ms cubic-bezier(0.16,1,0.3,1) 240ms;transform-origin:38px 71px"></rect>
+                    </svg>
+                    <span class="font-display text-lg font-medium tracking-tight text-bone">Tessera</span>
+                </a>
+                <nav class="hidden items-center gap-7 text-sm md:flex">
+                    <a href="/" class="font-mono text-[11px] uppercase tracking-[0.18em] text-ash transition-colors duration-200 hover:text-lumen">Home</a>
+                    <a href="/products" class="font-mono text-[11px] uppercase tracking-[0.18em] text-ash transition-colors duration-200 hover:text-lumen">Products</a>
+                    <a href="/docs" class="font-mono text-[11px] uppercase tracking-[0.18em] text-ash transition-colors duration-200 hover:text-lumen">Docs</a>
+                    <a href="/#how" class="font-mono text-[11px] uppercase tracking-[0.18em] text-ash transition-colors duration-200 hover:text-lumen">How it works</a>
+                    <a href="/#faq" class="font-mono text-[11px] uppercase tracking-[0.18em] text-ash transition-colors duration-200 hover:text-lumen">FAQ</a>
+                </nav>
+                <div class="flex items-center gap-4">
+                    <div class="hidden items-center gap-2 lg:flex">
+                        <span class="relative inline-block h-1.5 w-1.5">
+                            <span class="absolute inset-0 rounded-full bg-lumen animate-glow-pulse"></span>
+                        </span>
+                        <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-mute">
+                            base · block
+                            <!-- -->
+                            <span class="num text-bone">27,841,239</span>
+                        </span>
+                    </div>
+                    <a href="/demo" class="btn-lumen focus-ring rounded-sm px-4 py-2 font-mono text-[11px] uppercase tracking-[0.15em]">Try the demo</a>
+                </div>
+            </div>
+        </header>
+        <main class="min-h-screen bg-ink">
+            <section class="relative border-b border-smoke">
+                <div aria-hidden="true" class="pointer-events-none absolute inset-0" style="background-image:radial-gradient(ellipse 60% 50% at 50% 0%, rgba(184,255,62,0.07), transparent 65%)"></div>
+                <div class="relative mx-auto max-w-5xl px-6 pb-16 pt-20 md:pt-28">
+                    <div class="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.18em] ">
+                        <span class="text-mute">[
+                        <!-- -->
+                        D0
+                        <!-- -->
+                        ]</span>
+                        <span class="h-px flex-1 max-w-12 bg-smoke"></span>
+                        <span class="text-bone">Docs · Base Mainnet</span>
+                    </div>
+                    <div class="mt-7 flex flex-wrap items-start justify-between gap-6">
+                        <div>
+                            <h1 class="max-w-3xl font-display text-[clamp(2.2rem,5vw,4rem)] font-medium leading-[1.02] tracking-[-0.03em] text-bone">
+                                Build credit for AI agents
+                                <!-- -->
+                                <span class="gradient-text-warm">on Base.</span>
+                            </h1>
+                            <p class="mt-5 max-w-2xl text-[1.05rem] leading-relaxed text-ash">Tessera is a USDC credit protocol for AI agents. Settlement history goes in, programmable credit lines come out. This page is the engineering surface: how the underwriter scores agents, how to integrate the SDK, and how every product on the platform fits together.</p>
+                            <p class="mt-3 font-mono text-[10px] uppercase tracking-[0.18em] text-mute">Live on Base mainnet · v0.0.1 SDK · subgraph synced</p>
+                        </div>
+                        <a href="https://basescan.org/address/0xb461941c658a1505a57b91ccb8dbcf411ac51b07#code" target="_blank" rel="noopener noreferrer" class="focus-ring inline-flex items-center gap-2 rounded-sm border border-lumen/40 bg-lumen/5 px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.18em] text-lumen hover:bg-lumen/10">
+                            <svg viewBox="0 0 12 12" width="10" height="10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M2 6.5 5 9.5 10 3.5"></path>
+                            </svg>
+                            <span>Verified on BaseScan</span>
+                            <span class="num text-mute">·</span>
+                            <span class="num text-bone/80">0x4ead…cd52</span>
+                        </a>
+                    </div>
+                    <nav aria-label="Docs table of contents" class="mt-12 border border-smoke bg-obsidian/40 px-6 py-5">
+                        <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-mute">On this page</div>
+                        <ul class="mt-3 grid grid-cols-1 gap-x-6 gap-y-2 md:grid-cols-2">
+                            <li>
+                                <a href="#what-is-tessera" class="group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen">
+                                    <span class="text-mute group-hover:text-lumen">01</span>
+                                    What is Tessera
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#quickstart" class="group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen">
+                                    <span class="text-mute group-hover:text-lumen">02</span>
+                                    Quickstart
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#product-suite" class="group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen">
+                                    <span class="text-mute group-hover:text-lumen">03</span>
+                                    Product suite
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#credit-underwriting" class="group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen">
+                                    <span class="text-mute group-hover:text-lumen">04</span>
+                                    Credit underwriting
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#settlement-protocol" class="group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen">
+                                    <span class="text-mute group-hover:text-lumen">05</span>
+                                    Settlement protocol
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#sdk-reference" class="group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen">
+                                    <span class="text-mute group-hover:text-lumen">06</span>
+                                    SDK reference
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#subgraph" class="group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen">
+                                    <span class="text-mute group-hover:text-lumen">07</span>
+                                    Subgraph
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#vault-mechanics" class="group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen">
+                                    <span class="text-mute group-hover:text-lumen">08</span>
+                                    Vault mechanics
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#roadmap" class="group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen">
+                                    <span class="text-mute group-hover:text-lumen">09</span>
+                                    Roadmap
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#resources" class="group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen">
+                                    <span class="text-mute group-hover:text-lumen">10</span>
+                                    Resources
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+            <section id="what-is-tessera" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    01
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">What is Tessera</h2>
+                    <div class="mt-6">
+                        <p class="mt-4 max-w-3xl text-[15px] leading-relaxed text-ash">Tessera is the first credit card built for AI agents. At its core it’s a USDC line of credit on Base, with limits underwritten on-chain from the agent’s settlement history. Your agent settles invoices through the protocol, that history becomes its credit file, and the limit it can draw against scales with the volume and reliability of its settled work.</p>
+                        <p class="mt-4 max-w-3xl text-[15px] leading-relaxed text-ash">The protocol is permissionless on the borrower side — the underwriter is the chain. No KYB, no application, no human in the loop. Default and the limit tightens; pay back on time and it grows. All visible on-chain.</p>
+                        <div class="mt-6 rounded-sm border px-5 py-4 text-sm leading-relaxed border-lumen/40 bg-lumen/[0.05] text-bone">
+                            Tessera Credit is currently a simulated demo at
+                            <!-- -->
+                            <a href="/demo" class="text-bone underline decoration-lumen/40 underline-offset-2 hover:decoration-lumen">/demo</a>
+                            — try it to feel exactly how it’ll work the day it ships. The surrounding products (vault, pay-me, agent dashboard, public ledger) are
+                            <!-- -->
+                            <strong class="text-bone">in development</strong>
+                            and unlock product-by-product after the credit launch.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="quickstart" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    02
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">Quickstart</h2>
+                    <div class="mt-6">
+                        <p class="mt-4 max-w-3xl text-[15px] leading-relaxed text-ash">Three lines of config gets you on the rails. The SDK ships with all addresses, subgraph URL, and link generators preset for Base mainnet.</p>
+                        <div class="mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian">
+                            <div class="flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2">
+                                <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-ash">install.sh</span>
+                                <span class="rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen">bash</span>
+                            </div>
+                            <pre class="overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone">
+                                <code class="font-mono">npm install @tessera/sdk viem</code>
+                            </pre>
+                        </div>
+                        <div class="mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian">
+                            <div class="flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2">
+                                <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-ash">agent.ts</span>
+                                <span class="rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen">typescript</span>
+                            </div>
+                            <pre class="overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone">
+                                <code class="font-mono">import { Tessera, TESSERA_BASE_MAINNET } from &quot;@tessera/sdk &quot;;
+import { createWalletClient, http } from &quot;viem &quot;;
+import { privateKeyToAccount } from &quot;viem/accounts &quot;;
+import { base } from &quot;viem/chains &quot;;
+
+const wallet = createWalletClient({
+  account: privateKeyToAccount(process.env.AGENT_PK as `0x${string}`),
+  chain: base,
+  transport: http(),
+});
+
+const tessera = new Tessera({
+  ...TESSERA_BASE_MAINNET,
+  walletClient: wallet,
+});
+
+// Read your agent &#x27;s current credit picture
+const profile = await tessera.getAgentProfile(wallet.account.address);
+console.log(&quot;Lifetime settled:&quot;, profile.settledVolume);
+console.log(&quot;Repayment rate:&quot;,  profile.repayRate);
+console.log(&quot;Computed limit:&quot;,  profile.creditLimit);   // Phase 1</code>
+                            </pre>
+                        </div>
+                        <p class="mt-4 max-w-3xl text-[15px] leading-relaxed text-ash">
+                            Need a richer starter?
+                            <!-- -->
+                            <a href="https://github.com/cmxdev1/Tessera/tree/main/examples" target="_blank" rel="noopener noreferrer" class="text-bone underline decoration-lumen/40 underline-offset-2 hover:decoration-lumen">
+                                github.com/cmxdev1/Tessera/tree/main/examples<span aria-hidden="true">↗</span>
+                            </a>
+                            <!-- -->
+                            has working agents for each common flow.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="product-suite" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    03
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">The product suite</h2>
+                    <div class="mt-6">
+                        <p class="mt-4 max-w-3xl text-[15px] leading-relaxed text-ash">Tessera is a protocol of four live surfaces and three planned ones. Everything reads from the same on-chain state.</p>
+                        <div class="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
+                            <a href="/demo" class="group block border p-5 transition-colors border-smoke bg-obsidian/40 hover:border-lumen/40 hover:bg-obsidian/60 focus-ring cursor-pointer">
+                                <div class="font-mono text-[9px] uppercase tracking-[0.2em] text-lumen">Live · Phase 0</div>
+                                <h4 class="mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone">Tessera Credit</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash">USDC credit line for AI agents. Limits underwritten on-chain from settlement history.</p>
+                                <div class="mt-4 inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.18em] text-lumen group-hover:underline">
+                                    Try the demo
+                                    <!-- -->
+                                    <span aria-hidden="true">→</span>
+                                </div>
+                            </a>
+                            <div class="group block border p-5 transition-colors border-smoke/50 bg-obsidian/20">
+                                <div class="font-mono text-[9px] uppercase tracking-[0.2em] text-lumen">Building</div>
+                                <h4 class="mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone/70">Lender Vault</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash/60">ERC-4626 vault. Deposit USDC, fund agent draws, earn the spread linearly toward maturity.</p>
+                            </div>
+                            <div class="group block border p-5 transition-colors border-smoke/50 bg-obsidian/20">
+                                <div class="font-mono text-[9px] uppercase tracking-[0.2em] text-lumen">Building</div>
+                                <h4 class="mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone/70">Tessera Pay</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash/60">Shareable USDC pay-me links. The on-ramp that builds credit history one settlement at a time.</p>
+                            </div>
+                            <div class="group block border p-5 transition-colors border-smoke/50 bg-obsidian/20">
+                                <div class="font-mono text-[9px] uppercase tracking-[0.2em] text-lumen">Building</div>
+                                <h4 class="mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone/70">Public Ledger</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash/60">Every invoice, draw, and repayment on the protocol. Filterable, expandable, on-chain receipts.</p>
+                            </div>
+                            <div class="group block border p-5 transition-colors border-smoke/50 bg-obsidian/20">
+                                <div class="font-mono text-[9px] uppercase tracking-[0.2em] text-lumen">Building</div>
+                                <h4 class="mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone/70">Agent Dashboard</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash/60">Bill another agent. Repay invoices billed to you. One screen for both sides of agent settlement.</p>
+                            </div>
+                            <div class="group block border p-5 transition-colors border-smoke/50 bg-obsidian/20">
+                                <div class="font-mono text-[9px] uppercase tracking-[0.2em] text-lumen">Phase 1</div>
+                                <h4 class="mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone/70">Escrow</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash/60">Deliverable-locked payments for one-off agent hires. Buyer locks, seller delivers, release on confirmation.</p>
+                            </div>
+                            <div class="group block border p-5 transition-colors border-smoke/50 bg-obsidian/20">
+                                <div class="font-mono text-[9px] uppercase tracking-[0.2em] text-lumen">Phase 1</div>
+                                <h4 class="mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone/70">Reputation credentials</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash/60">Portable on-chain credentials built from settlement history. Citable across protocols.</p>
+                            </div>
+                            <div class="group block border p-5 transition-colors border-smoke/50 bg-obsidian/20">
+                                <div class="font-mono text-[9px] uppercase tracking-[0.2em] text-lumen">Phase 2</div>
+                                <h4 class="mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone/70">MCP server</h4>
+                                <p class="mt-2 text-sm leading-relaxed text-ash/60">Drop-in MCP integration for Claude, Cursor, and other agent frameworks. Wraps the SDK.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="credit-underwriting" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    04
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">Credit underwriting</h2>
+                    <div class="mt-6">
+                        <p class="mt-4 max-w-3xl text-[15px] leading-relaxed text-ash">Limits are computed from on-chain inputs only. No human in the loop, no application, no quarterly review. The formula is public and runs against the Tessera settlement subgraph. Limits update as new invoices settle.</p>
+                        <div class="mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian">
+                            <div class="flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2">
+                                <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-ash">underwriter.ts</span>
+                                <span class="rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen">typescript</span>
+                            </div>
+                            <pre class="overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone">
+                                <code class="font-mono">function computeCreditLimit(profile: AgentProfile): number {
+  const { settledVolume, avgInvoice, repayRate } = profile;
+
+  const raw =
+    settledVolume * 0.40 +       // 40% of lifetime volume
+    avgInvoice    * 8    +       // 8x the average ticket
+    repayRate     * 5_000;       // up to $5k for perfect repayment
+
+  return Math.min(50_000, raw);  // $50k initial cap
+}</code>
+                            </pre>
+                        </div>
+                        <h3 class="mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone">Signal weights — what the underwriter actually reads</h3>
+                        <div class="mt-5 overflow-x-auto rounded-sm border border-smoke">
+                            <table class="w-full text-sm">
+                                <thead>
+                                    <tr class="border-b border-smoke bg-obsidian/60 text-left font-mono text-[10px] uppercase tracking-[0.18em] text-mute">
+                                        <th class="px-4 py-3">Signal</th>
+                                        <th class="px-4 py-3">Source</th>
+                                        <th class="px-4 py-3">Weight</th>
+                                        <th class="px-4 py-3">Why it matters</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-smoke/60 text-ash">
+                                    <tr>
+                                        <td class="px-4 py-3 font-mono text-xs text-bone">settledVolume</td>
+                                        <td class="px-4 py-3 font-mono text-[11px] text-mute">subgraph</td>
+                                        <td class="px-4 py-3 font-mono text-bone">× 0.40</td>
+                                        <td class="px-4 py-3 text-sm">Bigger track record → bigger line. Linear.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-4 py-3 font-mono text-xs text-bone">avgInvoice</td>
+                                        <td class="px-4 py-3 font-mono text-[11px] text-mute">derived</td>
+                                        <td class="px-4 py-3 font-mono text-bone">× 8</td>
+                                        <td class="px-4 py-3 text-sm">Bigger tickets → bigger working-capital ceiling.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-4 py-3 font-mono text-xs text-bone">repayRate</td>
+                                        <td class="px-4 py-3 font-mono text-[11px] text-mute">subgraph</td>
+                                        <td class="px-4 py-3 font-mono text-bone">× $5,000</td>
+                                        <td class="px-4 py-3 text-sm">Reliability premium. 100% on-time → +$5k.</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="px-4 py-3 font-mono text-xs text-bone">cap</td>
+                                        <td class="px-4 py-3 font-mono text-[11px] text-mute">protocol</td>
+                                        <td class="px-4 py-3 font-mono text-bone">$50,000</td>
+                                        <td class="px-4 py-3 text-sm">Initial ceiling, lifts as vault TVL and underwriting data deepen.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <h3 class="mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone">What happens when an agent defaults</h3>
+                        <p class="mt-4 max-w-3xl text-[15px] leading-relaxed text-ash">A missed repayment is recorded on-chain and permanently dents the agent’s repayment rate — the same number the underwriter reads for every future draw. Lenders take the principal loss (no insurance pool in v0). Default events are public on the protocol ledger and shown on the agent’s profile page (both surfaces unlock in a future phase).</p>
+                    </div>
+                </div>
+            </section>
+            <section id="settlement-protocol" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    05
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">Settlement protocol</h2>
+                    <div class="mt-6">
+                        <p class="mt-4 max-w-3xl text-[15px] leading-relaxed text-ash">
+                            The substrate beneath the credit product. Three primitives feed the same on-chain state: <strong class="text-bone">invoice</strong>
+                            <!-- -->
+                            (retainer / project work),
+                            <!-- -->
+                            <strong class="text-bone">escrow</strong>
+                            (deliverable-locked one-offs, Phase 1), and
+                            <!-- -->
+                            <strong class="text-bone">reputation</strong>
+                            (the credential you build by using either).
+                        </p>
+                        <h3 class="mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone">Invoice lifecycle</h3>
+                        <ol class="ml-1 mt-4 space-y-3">
+                            <li class="flex gap-4 border-l border-lumen/30 pl-4">
+                                <div>
+                                    <div class="flex items-center gap-3">
+                                        <span class="num font-mono text-xs text-lumen">01</span>
+                                        <span class="font-mono text-xs font-medium uppercase tracking-[0.18em] text-bone">createInvoice</span>
+                                    </div>
+                                    <div class="mt-2 max-w-2xl text-sm leading-relaxed text-ash">Originator calls the SDK with the buyer’s address, face value in USDC, maturity timestamp, and discount in basis points. An invoice record mints on-chain.</div>
+                                </div>
+                            </li>
+                            <li class="flex gap-4 border-l border-lumen/30 pl-4">
+                                <div>
+                                    <div class="flex items-center gap-3">
+                                        <span class="num font-mono text-xs text-lumen">02</span>
+                                        <span class="font-mono text-xs font-medium uppercase tracking-[0.18em] text-bone">fundInvoice</span>
+                                    </div>
+                                    <div class="mt-2 max-w-2xl text-sm leading-relaxed text-ash">Any lender in the vault can fund the invoice in a single transaction. The discounted advance (e.g. 97% of face at 3% discount) flows directly to the originator’s wallet.</div>
+                                </div>
+                            </li>
+                            <li class="flex gap-4 border-l border-lumen/30 pl-4">
+                                <div>
+                                    <div class="flex items-center gap-3">
+                                        <span class="num font-mono text-xs text-lumen">03</span>
+                                        <span class="font-mono text-xs font-medium uppercase tracking-[0.18em] text-bone">Linear accrual</span>
+                                    </div>
+                                    <div class="mt-2 max-w-2xl text-sm leading-relaxed text-ash">
+                                        Spread accrues to vault NAV linearly toward maturity. Lenders hold
+                                        <!-- -->
+                                        <code class="font-mono text-xs text-bone">tsUSDCv1</code>
+                                        <!-- -->
+                                        ERC-4626 shares; NAV ticks up automatically — no claim transactions.
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="flex gap-4 border-l border-lumen/30 pl-4">
+                                <div>
+                                    <div class="flex items-center gap-3">
+                                        <span class="num font-mono text-xs text-lumen">04</span>
+                                        <span class="font-mono text-xs font-medium uppercase tracking-[0.18em] text-bone">repayInvoice</span>
+                                    </div>
+                                    <div class="mt-2 max-w-2xl text-sm leading-relaxed text-ash">
+                                        On or before maturity, the buyer agent calls
+                                        <!-- -->
+                                        <code class="font-mono text-xs text-bone">repayInvoice</code>
+                                        <!-- -->
+                                        with face value in USDC. Funds flow back into vault NAV. Repayment rate ticks up; credit limit recomputes.
+                                    </div>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+            <section id="sdk-reference" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    06
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">SDK reference</h2>
+                    <div class="mt-6">
+                        <p class="mt-4 max-w-3xl text-[15px] leading-relaxed text-ash">
+                            <code class="font-mono text-xs text-bone">@tessera/sdk</code>
+                            is a TypeScript client for any Node.js or Edge runtime. Accepts any
+                            <!-- -->
+                            <code class="font-mono text-xs text-bone">viem</code>
+                            <!-- -->
+                            WalletClient — bring your own signer.
+                        </p>
+                        <h3 class="mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone">On-chain writes</h3>
+                        <div class="mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian">
+                            <div class="flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2">
+                                <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-ash">writes.ts</span>
+                                <span class="rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen">typescript</span>
+                            </div>
+                            <pre class="overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone">
+                                <code class="font-mono">// Originator side
+await tessera.createInvoice({
+  buyer: &quot;0x…&quot;,
+  faceValueUsdc: 1000n * 10n ** 6n,
+  maturityUnix: Math.floor(Date.now() / 1000) + 14 * 86400,
+  discountBps: 300,                        // 3%
+});
+
+// Buyer side
+await tessera.repayInvoice(invoiceId);
+
+// Vault side
+await tessera.deposit(amountUsdc);
+await tessera.redeem(shares);
+
+// Phase 1: credit-line operations (simulated today)
+await tessera.drawCredit(amountUsdc);
+await tessera.repayCredit(amountUsdc);</code>
+                            </pre>
+                        </div>
+                        <h3 class="mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone">Reads (subgraph)</h3>
+                        <div class="mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian">
+                            <div class="flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2">
+                                <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-ash">reads.ts</span>
+                                <span class="rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen">typescript</span>
+                            </div>
+                            <pre class="overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone">
+                                <code class="font-mono">const profile = await tessera.getAgentProfile(address);
+// { settledVolume, avgInvoice, repayRate, monthsOnBase,
+//   settledInvoices, computedCreditLimit }
+
+const score = await tessera.getReputationScore(address);
+// 0..100, weighted blend of repayRate, age, volume
+
+const recent = await tessera.recentInvoices({
+  agent: address,
+  limit: 25,
+});</code>
+                            </pre>
+                        </div>
+                        <h3 class="mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone">Helpers</h3>
+                        <div class="mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian">
+                            <div class="flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2">
+                                <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-ash">helpers.ts</span>
+                                <span class="rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen">typescript</span>
+                            </div>
+                            <pre class="overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone">
+                                <code class="font-mono">// Link generators (use anywhere, no wallet needed)
+tessera.getPayLink(invoiceId);             // /pay/&lt;id &gt;tessera.getProfileLink(address);           // /a/&lt;address &gt;tessera.getPayMeLink(address);             // /pay-me/&lt;address &gt;// Async wait helpers — for agent automation
+await tessera.waitForFunded(invoiceId,  { timeoutMs: 60_000 });
+await tessera.waitForRepaid(invoiceId,  { timeoutMs: 60_000 });
+await tessera.waitForDraw(drawId,       { timeoutMs: 60_000 });</code>
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="subgraph" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    07
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">Subgraph</h2>
+                    <div class="mt-6">
+                        <p class="mt-4 max-w-3xl text-[15px] leading-relaxed text-ash">Every counter on every product page is derived from the Tessera subgraph. Public endpoint, no auth required.</p>
+                        <div class="mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian">
+                            <div class="flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2">
+                                <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-ash">endpoint.sh</span>
+                                <span class="rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen">bash</span>
+                            </div>
+                            <pre class="overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone">
+                                <code class="font-mono">https://api.studio.thegraph.com/query/1749787/tessera-base/v0.0.1</code>
+                            </pre>
+                        </div>
+                        <h3 class="mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone">Useful queries</h3>
+                        <div class="mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian">
+                            <div class="flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2">
+                                <span class="font-mono text-[10px] uppercase tracking-[0.18em] text-ash">queries.ts</span>
+                                <span class="rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen">typescript</span>
+                            </div>
+                            <pre class="overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone">
+                                <code class="font-mono">// Lifetime profile for a single agent
+const QUERY_AGENT_PROFILE = `
+  query AgentProfile($id: ID!) {
+    agent(id: $id) {
+      id
+      settledInvoiceCount
+      settledVolume
+      repayedOnTime
+      repayedLate
+      defaulted
+      firstInvoiceAt
+    }
+  }
+`;
+
+// Recent invoices, paginated
+const QUERY_RECENT_INVOICES = `
+  query Recent($limit: Int!, $skip: Int!) {
+    invoices(
+      first: $limit, skip: $skip,
+      orderBy: createdAt, orderDirection: desc
+    ) {
+      id  faceValueUsdc  status
+      originator { id }  buyer { id }
+      createdAt  maturityAt  repaidAt
+    }
+  }
+`;</code>
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="vault-mechanics" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    08
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">Vault mechanics</h2>
+                    <div class="mt-6">
+                        <p class="mt-4 max-w-3xl text-[15px] leading-relaxed text-ash">The lender side. Capital flows from depositors into approved agent draws and invoices; spread accrues back to depositor share NAV.</p>
+                        <ul class="mt-5 space-y-3">
+                            <li class="flex items-start gap-2.5 text-[15px] leading-relaxed text-ash">
+                                <span aria-hidden="true" class="mt-1.5 inline-block h-1 w-1 flex-none rounded-full bg-lumen"></span>
+                                <span>
+                                    <strong class="text-bone">ERC-4626 standard.</strong>
+                                    <!-- -->
+                                    Share token is
+                                    <!-- -->
+                                    <code class="font-mono text-xs text-bone">tsUSDCv1</code>
+                                    . Deposit USDC, receive shares; redeem shares, get USDC back at current NAV.
+                                </span>
+                            </li>
+                            <li class="flex items-start gap-2.5 text-[15px] leading-relaxed text-ash">
+                                <span aria-hidden="true" class="mt-1.5 inline-block h-1 w-1 flex-none rounded-full bg-lumen"></span>
+                                <span>
+                                    <strong class="text-bone">Linear accrual.</strong>
+                                    No claim transactions. NAV ticks up automatically as funded paper accrues toward maturity.
+                                </span>
+                            </li>
+                            <li class="flex items-start gap-2.5 text-[15px] leading-relaxed text-ash">
+                                <span aria-hidden="true" class="mt-1.5 inline-block h-1 w-1 flex-none rounded-full bg-lumen"></span>
+                                <span>
+                                    <strong class="text-bone">Withdrawal queue.</strong>
+                                    If liquidity is fully deployed, redemption requests sit in an FIFO queue and clear as positions mature. No lockup — queue is the backstop, not a fixed term.
+                                </span>
+                            </li>
+                            <li class="flex items-start gap-2.5 text-[15px] leading-relaxed text-ash">
+                                <span aria-hidden="true" class="mt-1.5 inline-block h-1 w-1 flex-none rounded-full bg-lumen"></span>
+                                <span>
+                                    <strong class="text-bone">Manual underwriting (v0).</strong>
+                                    <!-- -->
+                                    Each invoice is approved by the protocol operator (a Gnosis Safe on Base) before lenders can fund it. Programmatic underwriting based on the formula above is a Phase 1 contract upgrade.
+                                </span>
+                            </li>
+                            <li class="flex items-start gap-2.5 text-[15px] leading-relaxed text-ash">
+                                <span aria-hidden="true" class="mt-1.5 inline-block h-1 w-1 flex-none rounded-full bg-lumen"></span>
+                                <span>
+                                    <strong class="text-bone">25-30% target APY.</strong>
+                                    <!-- -->
+                                    Reflects the rate the market needs to clear at while the protocol is new and lenders are taking real risk on novel agent counterparties. Expect normalization toward 15-20% as repayment data accumulates.
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="roadmap" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    09
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">Roadmap</h2>
+                    <div class="mt-6">
+                        <ul class="mt-2 space-y-5">
+                            <li class="border-l border-smoke pl-5">
+                                <div class="flex items-center gap-2">
+                                    <span class="relative inline-block h-1.5 w-1.5 rounded-full bg-lumen animate-glow-pulse"></span>
+                                    <span class="font-mono text-[10px] uppercase tracking-[0.2em] text-lumen">Phase 0 · live</span>
+                                </div>
+                                <h3 class="mt-2 font-display text-xl font-medium tracking-[-0.015em] text-bone">Simulated credit demo</h3>
+                                <p class="mt-2 max-w-2xl text-sm leading-relaxed text-ash">The credit playground is live at /demo so you can preview the full experience. Surrounding products (vault, pay-me, agent dashboard, public ledger) are parked in &#x27;Building &#x27;status and unlock product-by-product.</p>
+                            </li>
+                            <li class="border-l border-smoke pl-5">
+                                <div class="flex items-center gap-2">
+                                    <span class="relative inline-block h-1.5 w-1.5 rounded-full bg-lumen"></span>
+                                    <span class="font-mono text-[10px] uppercase tracking-[0.2em] text-lumen">Phase 1</span>
+                                </div>
+                                <h3 class="mt-2 font-display text-xl font-medium tracking-[-0.015em] text-bone">Real credit draws + programmatic underwriting</h3>
+                                <p class="mt-2 max-w-2xl text-sm leading-relaxed text-ash">drawCredit / repayCredit on a live contract. The formula above replaces manual underwriting for sub-cap draws. Escrow product ships.</p>
+                            </li>
+                            <li class="border-l border-smoke pl-5">
+                                <div class="flex items-center gap-2">
+                                    <span class="relative inline-block h-1.5 w-1.5 rounded-full bg-mute"></span>
+                                    <span class="font-mono text-[10px] uppercase tracking-[0.2em] text-lumen">Phase 1.2</span>
+                                </div>
+                                <h3 class="mt-2 font-display text-xl font-medium tracking-[-0.015em] text-bone">Multi-tenor pools + reputation credentials</h3>
+                                <p class="mt-2 max-w-2xl text-sm leading-relaxed text-ash">Separate vault pools by tenor (7/14/30/60 day) so lenders can pick duration risk. Portable reputation credential surfaces as a standalone primitive.</p>
+                            </li>
+                            <li class="border-l border-smoke pl-5">
+                                <div class="flex items-center gap-2">
+                                    <span class="relative inline-block h-1.5 w-1.5 rounded-full bg-mute"></span>
+                                    <span class="font-mono text-[10px] uppercase tracking-[0.2em] text-lumen">Phase 2</span>
+                                </div>
+                                <h3 class="mt-2 font-display text-xl font-medium tracking-[-0.015em] text-bone">MCP + the broader integration surface</h3>
+                                <p class="mt-2 max-w-2xl text-sm leading-relaxed text-ash">Native MCP server for Claude / Cursor / etc. Multi-chain expansion if the unit economics hold. Insurance vault as a separate yield product.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="resources" class="scroll-mt-24 border-b border-smoke last:border-b-0">
+                <div class="mx-auto max-w-5xl px-6 py-16 md:py-20">
+                    <div class="font-mono text-[10px] uppercase tracking-[0.22em] text-lumen">[
+                    <!-- -->
+                    10
+                    <!-- -->
+                    ]</div>
+                    <h2 class="mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl">Resources</h2>
+                    <div class="mt-6">
+                        <ul class="mt-2 grid grid-cols-1 gap-3 md:grid-cols-2">
+                            <li>
+                                <a href="https://github.com/cmxdev1/Tessera" target="_blank" rel="noopener noreferrer" class="group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60">
+                                    <div class="flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone">
+                                        <span>GitHub</span>
+                                        <span aria-hidden="true" class="text-lumen">↗</span>
+                                    </div>
+                                    <p class="mt-2 text-sm leading-relaxed text-ash">Monorepo: contracts, SDK, subgraph, frontend</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://basescan.org/" target="_blank" rel="noopener noreferrer" class="group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60">
+                                    <div class="flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone">
+                                        <span>Verified contracts</span>
+                                        <span aria-hidden="true" class="text-lumen">↗</span>
+                                    </div>
+                                    <p class="mt-2 text-sm leading-relaxed text-ash">All contracts verified on BaseScan</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://api.studio.thegraph.com/query/1749787/tessera-base/v0.0.1" target="_blank" rel="noopener noreferrer" class="group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60">
+                                    <div class="flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone">
+                                        <span>Subgraph</span>
+                                        <span aria-hidden="true" class="text-lumen">↗</span>
+                                    </div>
+                                    <p class="mt-2 text-sm leading-relaxed text-ash">Public read endpoint</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/TesseraBase" target="_blank" rel="noopener noreferrer" class="group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60">
+                                    <div class="flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone">
+                                        <span>X</span>
+                                        <span aria-hidden="true" class="text-lumen">↗</span>
+                                    </div>
+                                    <p class="mt-2 text-sm leading-relaxed text-ash">Updates, launch posts, release notes</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://t.me/TesseraBase" target="_blank" rel="noopener noreferrer" class="group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60">
+                                    <div class="flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone">
+                                        <span>Telegram</span>
+                                        <span aria-hidden="true" class="text-lumen">↗</span>
+                                    </div>
+                                    <p class="mt-2 text-sm leading-relaxed text-ash">Realtime channel, community Q &amp;A</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/demo" class="group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60">
+                                    <div class="flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone">
+                                        <span>Credit demo</span>
+                                        <span aria-hidden="true" class="text-lumen">→</span>
+                                    </div>
+                                    <p class="mt-2 text-sm leading-relaxed text-ash">Full simulated playground — try the experience</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="mt-10 max-w-2xl font-mono text-[10px] uppercase tracking-[0.18em] text-mute">Docs reflect Phase 0 (settlement live, credit simulated). Real credit draws launch with Phase 1. Last updated
+                        <!-- -->
+                        <!-- -->
+                        May 20, 2026
+                        <!-- -->
+                        .</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--$-->
+        <!--/$-->
+        <script src="/_next/static/chunks/webpack-d14fcdd6ad0ef713.js" id="_R_" async=""></script>
+        <script>
+            (self.__next_f = self.__next_f || []).push([0])
+        </script>
+        <script>
+            self.__next_f.push([1, "1:\"$Sreact.fragment\"\n2:I[54594,[\"2618\",\"static/chunks/2618-758f7adc6c281117.js\",\"132\",\"static/chunks/132-20852e0d997519bc.js\",\"7177\",\"static/chunks/app/layout-7159ba2214834ed6.js\"],\"default\"]\n3:I[25204,[],\"\"]\n4:I[42642,[],\"\"]\n5:I[60133,[\"9040\",\"static/chunks/app/docs/page-6f033f4fac347427.js\"],\"default\"]\n17:I[16723,[\"4219\",\"static/chunks/app/global-error-441a57bb6d144f3f.js\"],\"default\"]\n:HL[\"/_next/static/media/27834908180db20f-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/78fec81b34c4a365.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/622368f7f0db5441.css\",\"style\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "0:{\"P\":null,\"b\":\"Ft8yQvG0eABV3Ahklr-UZ\",\"p\":\"\",\"c\":[\"\",\"docs\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"docs\",{\"children\":[\"__PAGE__\",{}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/622368f7f0db5441.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"__variable_245d8d __variable_97c177 dark\",\"style\":{\"--font-geist\":\"'GeistSans', 'GeistSans Fallback'\",\"--font-geist-mono\":\"'GeistMono', ui-monospace, SFMono-Regular, Roboto Mono, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, monospace\"},\"children\":[\"$\",\"body\",null,{\"className\":\"bg-ink text-bone antialiased\",\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]}]]}],{\"children\":[\"docs\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"$L5\",null,{}],[\"$\",\"main\",null,{\"className\":\"min-h-screen bg-ink\",\"children\":[[\"$\",\"section\",null,{\"className\":\"relative border-b border-smoke\",\"children\":[[\"$\",\"div\",null,{\"aria-hidden\":true,\"className\":\"pointer-events-none absolute inset-0\",\"style\":{\"backgroundImage\":\"radial-gradient(ellipse 60% 50% at 50% 0%, rgba(184,255,62,0.07), transparent 65%)\"}}],[\"$\",\"div\",null,{\"className\":\"relative mx-auto max-w-5xl px-6 pb-16 pt-20 md:pt-28\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.18em] \",\"children\":[[\"$\",\"span\",null,{\"className\":\"text-mute\",\"children\":[\"[\",\"D0\",\"]\"]}],[\"$\",\"span\",null,{\"className\":\"h-px flex-1 max-w-12 bg-smoke\"}],[\"$\",\"span\",null,{\"className\":\"text-bone\",\"children\":\"Docs · Base Mainnet\"}]]}],[\"$\",\"div\",null,{\"className\":\"mt-7 flex flex-wrap items-start justify-between gap-6\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"h1\",null,{\"className\":\"max-w-3xl font-display text-[clamp(2.2rem,5vw,4rem)] font-medium leading-[1.02] tracking-[-0.03em] text-bone\",\"children\":[\"Build credit for AI agents\",\" \",[\"$\",\"span\",null,{\"className\":\"gradient-text-warm\",\"children\":\"on Base.\"}]]}],[\"$\",\"p\",null,{\"className\":\"mt-5 max-w-2xl text-[1.05rem] leading-relaxed text-ash\",\"children\":\"Tessera is a USDC credit protocol for AI agents. Settlement history goes in, programmable credit lines come out. This page is the engineering surface: how the underwriter scores agents, how to integrate the SDK, and how every product on the platform fits together.\"}],[\"$\",\"p\",null,{\"className\":\"mt-3 font-mono text-[10px] uppercase tracking-[0.18em] text-mute\",\"children\":\"Live on Base mainnet · v0.0.1 SDK · subgraph synced\"}]]}],[\"$\",\"a\",null,{\"href\":\"https://basescan.org/address/0xb461941c658a1505a57b91ccb8dbcf411ac51b07#code\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"focus-ring inline-flex items-center gap-2 rounded-sm border border-lumen/40 bg-lumen/5 px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.18em] text-lumen hover:bg-lumen/10\",\"children\":[\"$L6\",\"$L7\",\"$L8\",\"$L9\"]}]]}],\"$La\"]}]]}],\"$Lb\",\"$Lc\",\"$Ld\",\"$Le\",\"$Lf\",\"$L10\",\"$L11\",\"$L12\",\"$L13\",\"$L14\"]}]],null,\"$L15\"]}],{},null,false]},null,false]},null,false],\"$L16\",false]],\"m\":\"$undefined\",\"G\":[\"$17\",[]],\"s\":false,\"S\":true}\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "29:I[60433,[],\"OutletBoundary\"]\n2b:I[19884,[],\"AsyncMetadataOutlet\"]\n2d:I[60433,[],\"ViewportBoundary\"]\n2f:I[60433,[],\"MetadataBoundary\"]\n30:\"$Sreact.suspense\"\n6:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 12 12\",\"width\":\"10\",\"height\":\"10\",\"fill\":\"none\",\"stroke\":\"currentColor\",\"strokeWidth\":\"2\",\"strokeLinecap\":\"round\",\"strokeLinejoin\":\"round\",\"aria-hidden\":\"true\",\"children\":[\"$\",\"path\",null,{\"d\":\"M2 6.5 5 9.5 10 3.5\"}]}]\n7:[\"$\",\"span\",null,{\"children\":\"Verified on BaseScan\"}]\n8:[\"$\",\"span\",null,{\"className\":\"num text-mute\",\"children\":\"·\"}]\n9:[\"$\",\"span\",null,{\"className\":\"num text-bone/80\",\"children\":\"0x4ead…cd52\"}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "a:[\"$\",\"nav\",null,{\"aria-label\":\"Docs table of contents\",\"className\":\"mt-12 border border-smoke bg-obsidian/40 px-6 py-5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-mute\",\"children\":\"On this page\"}],[\"$\",\"ul\",null,{\"className\":\"mt-3 grid grid-cols-1 gap-x-6 gap-y-2 md:grid-cols-2\",\"children\":[[\"$\",\"li\",\"what-is-tessera\",{\"children\":[\"$\",\"a\",null,{\"href\":\"#what-is-tessera\",\"className\":\"group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen\",\"children\":[[\"$\",\"span\",null,{\"className\":\"text-mute group-hover:text-lumen\",\"children\":\"01\"}],\"What is Tessera\"]}]}],[\"$\",\"li\",\"quickstart\",{\"children\":[\"$\",\"a\",null,{\"href\":\"#quickstart\",\"className\":\"group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen\",\"children\":[[\"$\",\"span\",null,{\"className\":\"text-mute group-hover:text-lumen\",\"children\":\"02\"}],\"Quickstart\"]}]}],[\"$\",\"li\",\"product-suite\",{\"children\":[\"$\",\"a\",null,{\"href\":\"#product-suite\",\"className\":\"group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen\",\"children\":[[\"$\",\"span\",null,{\"className\":\"text-mute group-hover:text-lumen\",\"children\":\"03\"}],\"Product suite\"]}]}],[\"$\",\"li\",\"credit-underwriting\",{\"children\":[\"$\",\"a\",null,{\"href\":\"#credit-underwriting\",\"className\":\"group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen\",\"children\":[[\"$\",\"span\",null,{\"className\":\"text-mute group-hover:text-lumen\",\"children\":\"04\"}],\"Credit underwriting\"]}]}],[\"$\",\"li\",\"settlement-protocol\",{\"children\":[\"$\",\"a\",null,{\"href\":\"#settlement-protocol\",\"className\":\"group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen\",\"children\":[[\"$\",\"span\",null,{\"className\":\"text-mute group-hover:text-lumen\",\"children\":\"05\"}],\"Settlement protocol\"]}]}],[\"$\",\"li\",\"sdk-reference\",{\"children\":[\"$\",\"a\",null,{\"href\":\"#sdk-reference\",\"className\":\"group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen\",\"children\":[[\"$\",\"span\",null,{\"className\":\"text-mute group-hover:text-lumen\",\"children\":\"06\"}],\"SDK reference\"]}]}],[\"$\",\"li\",\"subgraph\",{\"children\":[\"$\",\"a\",null,{\"href\":\"#subgraph\",\"className\":\"group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen\",\"children\":[[\"$\",\"span\",null,{\"className\":\"text-mute group-hover:text-lumen\",\"children\":\"07\"}],\"Subgraph\"]}]}],[\"$\",\"li\",\"vault-mechanics\",{\"children\":[\"$\",\"a\",null,{\"href\":\"#vault-mechanics\",\"className\":\"group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen\",\"children\":[[\"$\",\"span\",null,{\"className\":\"text-mute group-hover:text-lumen\",\"children\":\"08\"}],\"Vault mechanics\"]}]}],[\"$\",\"li\",\"roadmap\",{\"children\":[\"$\",\"a\",null,{\"href\":\"#roadmap\",\"className\":\"group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen\",\"children\":[[\"$\",\"span\",null,{\"className\":\"text-mute group-hover:text-lumen\",\"children\":\"09\"}],\"Roadmap\"]}]}],[\"$\",\"li\",\"resources\",{\"children\":[\"$\",\"a\",null,{\"href\":\"#resources\",\"className\":\"group flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-ash transition-colors hover:text-lumen\",\"children\":[[\"$\",\"span\",null,{\"className\":\"text-mute group-hover:text-lumen\",\"children\":\"10\"}],\"Resources\"]}]}]]}]]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "b:[\"$\",\"section\",null,{\"id\":\"what-is-tessera\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"01\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"What is Tessera\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-3xl text-[15px] leading-relaxed text-ash\",\"children\":\"Tessera is the first credit card built for AI agents. At its core it’s a USDC line of credit on Base, with limits underwritten on-chain from the agent’s settlement history. Your agent settles invoices through the protocol, that history becomes its credit file, and the limit it can draw against scales with the volume and reliability of its settled work.\"}],[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-3xl text-[15px] leading-relaxed text-ash\",\"children\":\"The protocol is permissionless on the borrower side — the underwriter is the chain. No KYB, no application, no human in the loop. Default and the limit tightens; pay back on time and it grows. All visible on-chain.\"}],[\"$\",\"div\",null,{\"className\":\"mt-6 rounded-sm border px-5 py-4 text-sm leading-relaxed border-lumen/40 bg-lumen/[0.05] text-bone\",\"children\":[\"Tessera Credit is currently a simulated demo at\",\" \",[\"$\",\"a\",null,{\"href\":\"/demo\",\"className\":\"text-bone underline decoration-lumen/40 underline-offset-2 hover:decoration-lumen\",\"children\":[\"/demo\",\"$undefined\"]}],\" — try it to feel exactly how it’ll work the day it ships. The surrounding products (vault, pay-me, agent dashboard, public ledger) are\",\" \",[\"$\",\"strong\",null,{\"className\":\"text-bone\",\"children\":\"in development\"}],\" and unlock product-by-product after the credit launch.\"]}]]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "c:[\"$\",\"section\",null,{\"id\":\"quickstart\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"02\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"Quickstart\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-3xl text-[15px] leading-relaxed text-ash\",\"children\":\"Three lines of config gets you on the rails. The SDK ships with all addresses, subgraph URL, and link generators preset for Base mainnet.\"}],[\"$\",\"div\",null,{\"className\":\"mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.18em] text-ash\",\"children\":\"install.sh\"}],[\"$\",\"span\",null,{\"className\":\"rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen\",\"children\":\"bash\"}]]}],[\"$\",\"pre\",null,{\"className\":\"overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone\",\"children\":[\"$\",\"code\",null,{\"className\":\"font-mono\",\"children\":\"npm install @tessera/sdk viem\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.18em] text-ash\",\"children\":\"agent.ts\"}],[\"$\",\"span\",null,{\"className\":\"rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen\",\"children\":\"typescript\"}]]}],[\"$\",\"pre\",null,{\"className\":\"overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone\",\"children\":[\"$\",\"code\",null,{\"className\":\"font-mono\",\"children\":\"import { Tessera, TESSERA_BASE_MAINNET } from \\\"@tessera/sdk\\\";\\nimport { createWalletClient, http } from \\\"viem\\\";\\nimport { privateKeyToAccount } from \\\"viem/accounts\\\";\\nimport { base } from \\\"viem/chains\\\";\\n\\nconst wallet = createWalletClient({\\n  account: privateKeyToAccount(process.env.AGENT_PK as `0x${string}`),\\n  chain: base,\\n  transport: http(),\\n});\\n\\nconst tessera = new Tessera({\\n  ...TESSERA_BASE_MAINNET,\\n  walletClient: wallet,\\n});\\n\\n// Read your agent's current credit picture\\nconst profile = await tessera.getAgentProfile(wallet.account.address);\\nconsole.log(\\\"Lifetime settled:\\\", profile.settledVolume);\\nconsole.log(\\\"Repayment rate:\\\",  profile.repayRate);\\nconsole.log(\\\"Computed limit:\\\",  profile.creditLimit);   // Phase 1\"}]}]]}],[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-3xl text-[15px] leading-relaxed text-ash\",\"children\":[\"Need a richer starter?\",\" \",[\"$\",\"a\",null,{\"href\":\"https://github.com/cmxdev1/Tessera/tree/main/examples\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"text-bone underline decoration-lumen/40 underline-offset-2 hover:decoration-lumen\",\"children\":[\"github.com/cmxdev1/Tessera/tree/main/examples\",[\"$\",\"span\",null,{\"aria-hidden\":true,\"children\":\" ↗\"}]]}],\" \",\"has working agents for each common flow.\"]}]]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "d:[\"$\",\"section\",null,{\"id\":\"product-suite\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"03\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"The product suite\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-3xl text-[15px] leading-relaxed text-ash\",\"children\":\"Tessera is a protocol of four live surfaces and three planned ones. Everything reads from the same on-chain state.\"}],[\"$\",\"div\",null,{\"className\":\"mt-6 grid grid-cols-1 gap-4 md:grid-cols-2\",\"children\":[[\"$\",\"a\",null,{\"href\":\"/demo\",\"className\":\"group block border p-5 transition-colors border-smoke bg-obsidian/40 hover:border-lumen/40 hover:bg-obsidian/60 focus-ring cursor-pointer\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[9px] uppercase tracking-[0.2em] text-lumen\",\"children\":\"Live · Phase 0\"}],[\"$\",\"h4\",null,{\"className\":\"mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone\",\"children\":\"Tessera Credit\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"USDC credit line for AI agents. Limits underwritten on-chain from settlement history.\"}],[\"$\",\"div\",null,{\"className\":\"mt-4 inline-flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.18em] text-lumen group-hover:underline\",\"children\":[\"Try the demo\",\" \",[\"$\",\"span\",null,{\"aria-hidden\":true,\"children\":\"→\"}]]}]]}],[\"$\",\"div\",null,{\"className\":\"group block border p-5 transition-colors border-smoke/50 bg-obsidian/20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[9px] uppercase tracking-[0.2em] text-lumen\",\"children\":\"Building\"}],[\"$\",\"h4\",null,{\"className\":\"mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone/70\",\"children\":\"Lender Vault\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash/60\",\"children\":\"ERC-4626 vault. Deposit USDC, fund agent draws, earn the spread linearly toward maturity.\"}],\"$undefined\"]}],[\"$\",\"div\",null,{\"className\":\"group block border p-5 transition-colors border-smoke/50 bg-obsidian/20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[9px] uppercase tracking-[0.2em] text-lumen\",\"children\":\"Building\"}],[\"$\",\"h4\",null,{\"className\":\"mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone/70\",\"children\":\"Tessera Pay\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash/60\",\"children\":\"Shareable USDC pay-me links. The on-ramp that builds credit history one settlement at a time.\"}],\"$undefined\"]}],[\"$\",\"div\",null,{\"className\":\"group block border p-5 transition-colors border-smoke/50 bg-obsidian/20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[9px] uppercase tracking-[0.2em] text-lumen\",\"children\":\"Building\"}],[\"$\",\"h4\",null,{\"className\":\"mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone/70\",\"children\":\"Public Ledger\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash/60\",\"children\":\"Every invoice, draw, and repayment on the protocol. Filterable, expandable, on-chain receipts.\"}],\"$undefined\"]}],[\"$\",\"div\",null,{\"className\":\"group block border p-5 transition-colors border-smoke/50 bg-obsidian/20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[9px] uppercase tracking-[0.2em] text-lumen\",\"children\":\"Building\"}],[\"$\",\"h4\",null,{\"className\":\"mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone/70\",\"children\":\"Agent Dashboard\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash/60\",\"children\":\"Bill another agent. Repay invoices billed to you. One screen for both sides of agent settlement.\"}],\"$undefined\"]}],[\"$\",\"div\",null,{\"className\":\"group block border p-5 transition-colors border-smoke/50 bg-obsidian/20\",\"children\":[\"$L18\",\"$L19\",\"$L1a\",\"$undefined\"]}],\"$L1b\",\"$L1c\"]}]]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "e:[\"$\",\"section\",null,{\"id\":\"credit-underwriting\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"04\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"Credit underwriting\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-3xl text-[15px] leading-relaxed text-ash\",\"children\":\"Limits are computed from on-chain inputs only. No human in the loop, no application, no quarterly review. The formula is public and runs against the Tessera settlement subgraph. Limits update as new invoices settle.\"}],[\"$\",\"div\",null,{\"className\":\"mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.18em] text-ash\",\"children\":\"underwriter.ts\"}],[\"$\",\"span\",null,{\"className\":\"rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen\",\"children\":\"typescript\"}]]}],[\"$\",\"pre\",null,{\"className\":\"overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone\",\"children\":[\"$\",\"code\",null,{\"className\":\"font-mono\",\"children\":\"function computeCreditLimit(profile: AgentProfile): number {\\n  const { settledVolume, avgInvoice, repayRate } = profile;\\n\\n  const raw =\\n    settledVolume * 0.40 +       // 40% of lifetime volume\\n    avgInvoice    * 8    +       // 8x the average ticket\\n    repayRate     * 5_000;       // up to $5k for perfect repayment\\n\\n  return Math.min(50_000, raw);  // $50k initial cap\\n}\"}]}]]}],[\"$\",\"h3\",null,{\"className\":\"mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone\",\"children\":\"Signal weights — what the underwriter actually reads\"}],[\"$\",\"div\",null,{\"className\":\"mt-5 overflow-x-auto rounded-sm border border-smoke\",\"children\":[\"$\",\"table\",null,{\"className\":\"w-full text-sm\",\"children\":[[\"$\",\"thead\",null,{\"children\":[\"$\",\"tr\",null,{\"className\":\"border-b border-smoke bg-obsidian/60 text-left font-mono text-[10px] uppercase tracking-[0.18em] text-mute\",\"children\":[[\"$\",\"th\",null,{\"className\":\"px-4 py-3\",\"children\":\"Signal\"}],[\"$\",\"th\",null,{\"className\":\"px-4 py-3\",\"children\":\"Source\"}],[\"$\",\"th\",null,{\"className\":\"px-4 py-3\",\"children\":\"Weight\"}],[\"$\",\"th\",null,{\"className\":\"px-4 py-3\",\"children\":\"Why it matters\"}]]}]}],[\"$\",\"tbody\",null,{\"className\":\"divide-y divide-smoke/60 text-ash\",\"children\":[[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"className\":\"px-4 py-3 font-mono text-xs text-bone\",\"children\":\"settledVolume\"}],[\"$\",\"td\",null,{\"className\":\"px-4 py-3 font-mono text-[11px] text-mute\",\"children\":\"subgraph\"}],[\"$\",\"td\",null,{\"className\":\"px-4 py-3 font-mono text-bone\",\"children\":\"× 0.40\"}],[\"$\",\"td\",null,{\"className\":\"px-4 py-3 text-sm\",\"children\":\"Bigger track record → bigger line. Linear.\"}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"className\":\"px-4 py-3 font-mono text-xs text-bone\",\"children\":\"avgInvoice\"}],[\"$\",\"td\",null,{\"className\":\"px-4 py-3 font-mono text-[11px] text-mute\",\"children\":\"derived\"}],[\"$\",\"td\",null,{\"className\":\"px-4 py-3 font-mono text-bone\",\"children\":\"× 8\"}],[\"$\",\"td\",null,{\"className\":\"px-4 py-3 text-sm\",\"children\":\"Bigger tickets → bigger working-capital ceiling.\"}]]}],[\"$\",\"tr\",null,{\"children\":[[\"$\",\"td\",null,{\"className\":\"px-4 py-3 font-mono text-xs text-bone\",\"children\":\"repayRate\"}],[\"$\",\"td\",null,{\"className\":\"px-4 py-3 font-mono text-[11px] text-mute\",\"children\":\"subgraph\"}],[\"$\",\"td\",null,{\"className\":\"px-4 py-3 font-mono text-bone\",\"children\":\"× $5,000\"}],[\"$\",\"td\",null,{\"className\":\"px-4 py-3 text-sm\",\"children\":\"Reliability premium. 100% on-time → +$5k.\"}]]}],[\"$\",\"tr\",null,{\"children\":[\"$L1d\",\"$L1e\",\"$L1f\",\"$L20\"]}]]}]]}]}],\"$L21\",\"$L22\"]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "f:[\"$\",\"section\",null,{\"id\":\"settlement-protocol\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"05\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"Settlement protocol\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-3xl text-[15px] leading-relaxed text-ash\",\"children\":[\"The substrate beneath the credit product. Three primitives feed the same on-chain state: \",[\"$\",\"strong\",null,{\"className\":\"text-bone\",\"children\":\"invoice\"}],\" \",\"(retainer / project work),\",\" \",[\"$\",\"strong\",null,{\"className\":\"text-bone\",\"children\":\"escrow\"}],\" (deliverable-locked one-offs, Phase 1), and\",\" \",[\"$\",\"strong\",null,{\"className\":\"text-bone\",\"children\":\"reputation\"}],\" (the credential you build by using either).\"]}],[\"$\",\"h3\",null,{\"className\":\"mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone\",\"children\":\"Invoice lifecycle\"}],[\"$\",\"ol\",null,{\"className\":\"ml-1 mt-4 space-y-3\",\"children\":[[\"$\",\"li\",null,{\"className\":\"flex gap-4 border-l border-lumen/30 pl-4\",\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"span\",null,{\"className\":\"num font-mono text-xs text-lumen\",\"children\":\"01\"}],[\"$\",\"span\",null,{\"className\":\"font-mono text-xs font-medium uppercase tracking-[0.18em] text-bone\",\"children\":\"createInvoice\"}]]}],[\"$\",\"div\",null,{\"className\":\"mt-2 max-w-2xl text-sm leading-relaxed text-ash\",\"children\":\"Originator calls the SDK with the buyer’s address, face value in USDC, maturity timestamp, and discount in basis points. An invoice record mints on-chain.\"}]]}]}],[\"$\",\"li\",null,{\"className\":\"flex gap-4 border-l border-lumen/30 pl-4\",\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"span\",null,{\"className\":\"num font-mono text-xs text-lumen\",\"children\":\"02\"}],[\"$\",\"span\",null,{\"className\":\"font-mono text-xs font-medium uppercase tracking-[0.18em] text-bone\",\"children\":\"fundInvoice\"}]]}],[\"$\",\"div\",null,{\"className\":\"mt-2 max-w-2xl text-sm leading-relaxed text-ash\",\"children\":\"Any lender in the vault can fund the invoice in a single transaction. The discounted advance (e.g. 97% of face at 3% discount) flows directly to the originator’s wallet.\"}]]}]}],[\"$\",\"li\",null,{\"className\":\"flex gap-4 border-l border-lumen/30 pl-4\",\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"span\",null,{\"className\":\"num font-mono text-xs text-lumen\",\"children\":\"03\"}],[\"$\",\"span\",null,{\"className\":\"font-mono text-xs font-medium uppercase tracking-[0.18em] text-bone\",\"children\":\"Linear accrual\"}]]}],[\"$\",\"div\",null,{\"className\":\"mt-2 max-w-2xl text-sm leading-relaxed text-ash\",\"children\":[\"Spread accrues to vault NAV linearly toward maturity. Lenders hold\",\" \",[\"$\",\"code\",null,{\"className\":\"font-mono text-xs text-bone\",\"children\":\"tsUSDCv1\"}],\" \",\"ERC-4626 shares; NAV ticks up automatically — no claim transactions.\"]}]]}]}],[\"$\",\"li\",null,{\"className\":\"flex gap-4 border-l border-lumen/30 pl-4\",\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"span\",null,{\"className\":\"num font-mono text-xs text-lumen\",\"children\":\"04\"}],[\"$\",\"span\",null,{\"className\":\"font-mono text-xs font-medium uppercase tracking-[0.18em] text-bone\",\"children\":\"repayInvoice\"}]]}],[\"$\",\"div\",null,{\"className\":\"mt-2 max-w-2xl text-sm leading-relaxed text-ash\",\"children\":[\"On or before maturity, the buyer agent calls\",\" \",[\"$\",\"code\",null,{\"className\":\"font-mono text-xs text-bone\",\"children\":\"repayInvoice\"}],\" \",\"with face value in USDC. Funds flow back into vault NAV. Repayment rate ticks up; credit limit recomputes.\"]}]]}]}]]}]]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "10:[\"$\",\"section\",null,{\"id\":\"sdk-reference\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"06\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"SDK reference\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-3xl text-[15px] leading-relaxed text-ash\",\"children\":[[\"$\",\"code\",null,{\"className\":\"font-mono text-xs text-bone\",\"children\":\"@tessera/sdk\"}],\" is a TypeScript client for any Node.js or Edge runtime. Accepts any\",\" \",[\"$\",\"code\",null,{\"className\":\"font-mono text-xs text-bone\",\"children\":\"viem\"}],\" \",\"WalletClient — bring your own signer.\"]}],[\"$\",\"h3\",null,{\"className\":\"mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone\",\"children\":\"On-chain writes\"}],[\"$\",\"div\",null,{\"className\":\"mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.18em] text-ash\",\"children\":\"writes.ts\"}],[\"$\",\"span\",null,{\"className\":\"rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen\",\"children\":\"typescript\"}]]}],[\"$\",\"pre\",null,{\"className\":\"overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone\",\"children\":[\"$\",\"code\",null,{\"className\":\"font-mono\",\"children\":\"// Originator side\\nawait tessera.createInvoice({\\n  buyer: \\\"0x…\\\",\\n  faceValueUsdc: 1000n * 10n ** 6n,\\n  maturityUnix: Math.floor(Date.now() / 1000) + 14 * 86400,\\n  discountBps: 300,                        // 3%\\n});\\n\\n// Buyer side\\nawait tessera.repayInvoice(invoiceId);\\n\\n// Vault side\\nawait tessera.deposit(amountUsdc);\\nawait tessera.redeem(shares);\\n\\n// Phase 1: credit-line operations (simulated today)\\nawait tessera.drawCredit(amountUsdc);\\nawait tessera.repayCredit(amountUsdc);\"}]}]]}],[\"$\",\"h3\",null,{\"className\":\"mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone\",\"children\":\"Reads (subgraph)\"}],[\"$\",\"div\",null,{\"className\":\"mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.18em] text-ash\",\"children\":\"reads.ts\"}],[\"$\",\"span\",null,{\"className\":\"rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen\",\"children\":\"typescript\"}]]}],[\"$\",\"pre\",null,{\"className\":\"overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone\",\"children\":[\"$\",\"code\",null,{\"className\":\"font-mono\",\"children\":\"const profile = await tessera.getAgentProfile(address);\\n// { settledVolume, avgInvoice, repayRate, monthsOnBase,\\n//   settledInvoices, computedCreditLimit }\\n\\nconst score = await tessera.getReputationScore(address);\\n// 0..100, weighted blend of repayRate, age, volume\\n\\nconst recent = await tessera.recentInvoices({\\n  agent: address,\\n  limit: 25,\\n});\"}]}]]}],[\"$\",\"h3\",null,{\"className\":\"mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone\",\"children\":\"Helpers\"}],[\"$\",\"div\",null,{\"className\":\"mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.18em] text-ash\",\"children\":\"helpers.ts\"}],\"$L23\"]}],\"$L24\"]}]]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "11:[\"$\",\"section\",null,{\"id\":\"subgraph\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"07\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"Subgraph\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-3xl text-[15px] leading-relaxed text-ash\",\"children\":\"Every counter on every product page is derived from the Tessera subgraph. Public endpoint, no auth required.\"}],[\"$\",\"div\",null,{\"className\":\"mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.18em] text-ash\",\"children\":\"endpoint.sh\"}],[\"$\",\"span\",null,{\"className\":\"rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen\",\"children\":\"bash\"}]]}],[\"$\",\"pre\",null,{\"className\":\"overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone\",\"children\":[\"$\",\"code\",null,{\"className\":\"font-mono\",\"children\":\"https://api.studio.thegraph.com/query/1749787/tessera-base/v0.0.1\"}]}]]}],[\"$\",\"h3\",null,{\"className\":\"mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bone\",\"children\":\"Useful queries\"}],[\"$\",\"div\",null,{\"className\":\"mt-5 overflow-hidden rounded-sm border border-smoke bg-obsidian\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between border-b border-smoke bg-ink/60 px-4 py-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.18em] text-ash\",\"children\":\"queries.ts\"}],[\"$\",\"span\",null,{\"className\":\"rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen\",\"children\":\"typescript\"}]]}],[\"$\",\"pre\",null,{\"className\":\"overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone\",\"children\":[\"$\",\"code\",null,{\"className\":\"font-mono\",\"children\":\"// Lifetime profile for a single agent\\nconst QUERY_AGENT_PROFILE = `\\n  query AgentProfile($id: ID!) {\\n    agent(id: $id) {\\n      id\\n      settledInvoiceCount\\n      settledVolume\\n      repayedOnTime\\n      repayedLate\\n      defaulted\\n      firstInvoiceAt\\n    }\\n  }\\n`;\\n\\n// Recent invoices, paginated\\nconst QUERY_RECENT_INVOICES = `\\n  query Recent($limit: Int!, $skip: Int!) {\\n    invoices(\\n      first: $limit, skip: $skip,\\n      orderBy: createdAt, orderDirection: desc\\n    ) {\\n      id  faceValueUsdc  status\\n      originator { id }  buyer { id }\\n      createdAt  maturityAt  repaidAt\\n    }\\n  }\\n`;\"}]}]]}]]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "12:[\"$\",\"section\",null,{\"id\":\"vault-mechanics\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"08\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"Vault mechanics\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-3xl text-[15px] leading-relaxed text-ash\",\"children\":\"The lender side. Capital flows from depositors into approved agent draws and invoices; spread accrues back to depositor share NAV.\"}],[\"$\",\"ul\",null,{\"className\":\"mt-5 space-y-3\",\"children\":[[\"$\",\"li\",null,{\"className\":\"flex items-start gap-2.5 text-[15px] leading-relaxed text-ash\",\"children\":[[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"mt-1.5 inline-block h-1 w-1 flex-none rounded-full bg-lumen\"}],[\"$\",\"span\",null,{\"children\":[[\"$\",\"strong\",null,{\"className\":\"text-bone\",\"children\":\"ERC-4626 standard.\"}],\" \",\"Share token is\",\" \",[\"$\",\"code\",null,{\"className\":\"font-mono text-xs text-bone\",\"children\":\"tsUSDCv1\"}],\". Deposit USDC, receive shares; redeem shares, get USDC back at current NAV.\"]}]]}],[\"$\",\"li\",null,{\"className\":\"flex items-start gap-2.5 text-[15px] leading-relaxed text-ash\",\"children\":[[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"mt-1.5 inline-block h-1 w-1 flex-none rounded-full bg-lumen\"}],[\"$\",\"span\",null,{\"children\":[[\"$\",\"strong\",null,{\"className\":\"text-bone\",\"children\":\"Linear accrual.\"}],\" No claim transactions. NAV ticks up automatically as funded paper accrues toward maturity.\"]}]]}],[\"$\",\"li\",null,{\"className\":\"flex items-start gap-2.5 text-[15px] leading-relaxed text-ash\",\"children\":[[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"mt-1.5 inline-block h-1 w-1 flex-none rounded-full bg-lumen\"}],[\"$\",\"span\",null,{\"children\":[[\"$\",\"strong\",null,{\"className\":\"text-bone\",\"children\":\"Withdrawal queue.\"}],\" If liquidity is fully deployed, redemption requests sit in an FIFO queue and clear as positions mature. No lockup — queue is the backstop, not a fixed term.\"]}]]}],[\"$\",\"li\",null,{\"className\":\"flex items-start gap-2.5 text-[15px] leading-relaxed text-ash\",\"children\":[[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"mt-1.5 inline-block h-1 w-1 flex-none rounded-full bg-lumen\"}],[\"$\",\"span\",null,{\"children\":[[\"$\",\"strong\",null,{\"className\":\"text-bone\",\"children\":\"Manual underwriting (v0).\"}],\" \",\"Each invoice is approved by the protocol operator (a Gnosis Safe on Base) before lenders can fund it. Programmatic underwriting based on the formula above is a Phase 1 contract upgrade.\"]}]]}],[\"$\",\"li\",null,{\"className\":\"flex items-start gap-2.5 text-[15px] leading-relaxed text-ash\",\"children\":[[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"mt-1.5 inline-block h-1 w-1 flex-none rounded-full bg-lumen\"}],[\"$\",\"span\",null,{\"children\":[[\"$\",\"strong\",null,{\"className\":\"text-bone\",\"children\":\"25-30% target APY.\"}],\" \",\"Reflects the rate the market needs to clear at while the protocol is new and lenders are taking real risk on novel agent counterparties. Expect normalization toward 15-20% as repayment data accumulates.\"]}]]}]]}]]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "13:[\"$\",\"section\",null,{\"id\":\"roadmap\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"09\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"Roadmap\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[\"$\",\"ul\",null,{\"className\":\"mt-2 space-y-5\",\"children\":[[\"$\",\"li\",null,{\"className\":\"border-l border-smoke pl-5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"relative inline-block h-1.5 w-1.5 rounded-full bg-lumen animate-glow-pulse\"}],[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.2em] text-lumen\",\"children\":\"Phase 0 · live\"}]]}],[\"$\",\"h3\",null,{\"className\":\"mt-2 font-display text-xl font-medium tracking-[-0.015em] text-bone\",\"children\":\"Simulated credit demo\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 max-w-2xl text-sm leading-relaxed text-ash\",\"children\":\"The credit playground is live at /demo so you can preview the full experience. Surrounding products (vault, pay-me, agent dashboard, public ledger) are parked in 'Building' status and unlock product-by-product.\"}]]}],[\"$\",\"li\",null,{\"className\":\"border-l border-smoke pl-5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"relative inline-block h-1.5 w-1.5 rounded-full bg-lumen\"}],[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.2em] text-lumen\",\"children\":\"Phase 1\"}]]}],[\"$\",\"h3\",null,{\"className\":\"mt-2 font-display text-xl font-medium tracking-[-0.015em] text-bone\",\"children\":\"Real credit draws + programmatic underwriting\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 max-w-2xl text-sm leading-relaxed text-ash\",\"children\":\"drawCredit / repayCredit on a live contract. The formula above replaces manual underwriting for sub-cap draws. Escrow product ships.\"}]]}],[\"$\",\"li\",null,{\"className\":\"border-l border-smoke pl-5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"relative inline-block h-1.5 w-1.5 rounded-full bg-mute\"}],[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.2em] text-lumen\",\"children\":\"Phase 1.2\"}]]}],[\"$\",\"h3\",null,{\"className\":\"mt-2 font-display text-xl font-medium tracking-[-0.015em] text-bone\",\"children\":\"Multi-tenor pools + reputation credentials\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 max-w-2xl text-sm leading-relaxed text-ash\",\"children\":\"Separate vault pools by tenor (7/14/30/60 day) so lenders can pick duration risk. Portable reputation credential surfaces as a standalone primitive.\"}]]}],[\"$\",\"li\",null,{\"className\":\"border-l border-smoke pl-5\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center gap-2\",\"children\":[[\"$\",\"span\",null,{\"className\":\"relative inline-block h-1.5 w-1.5 rounded-full bg-mute\"}],[\"$\",\"span\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.2em] text-lumen\",\"children\":\"Phase 2\"}]]}],[\"$\",\"h3\",null,{\"className\":\"mt-2 font-display text-xl font-medium tracking-[-0.015em] text-bone\",\"children\":\"MCP + the broader integration surface\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 max-w-2xl text-sm leading-relaxed text-ash\",\"children\":\"Native MCP server for Claude / Cursor / etc. Multi-chain expansion if the unit economics hold. Insurance vault as a separate yield product.\"}]]}]]}]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "14:[\"$\",\"section\",null,{\"id\":\"resources\",\"className\":\"scroll-mt-24 border-b border-smoke last:border-b-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-5xl px-6 py-16 md:py-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[10px] uppercase tracking-[0.22em] text-lumen\",\"children\":[\"[\",\"10\",\"]\"]}],[\"$\",\"h2\",null,{\"className\":\"mt-3 font-display text-3xl font-medium leading-[1.08] tracking-[-0.025em] text-bone md:text-4xl\",\"children\":\"Resources\"}],[\"$\",\"div\",null,{\"className\":\"mt-6\",\"children\":[[\"$\",\"ul\",null,{\"className\":\"mt-2 grid grid-cols-1 gap-3 md:grid-cols-2\",\"children\":[[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://github.com/cmxdev1/Tessera\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone\",\"children\":[[\"$\",\"span\",null,{\"children\":\"GitHub\"}],[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"text-lumen\",\"children\":\"↗\"}]]}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Monorepo: contracts, SDK, subgraph, frontend\"}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://basescan.org/\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone\",\"children\":[[\"$\",\"span\",null,{\"children\":\"Verified contracts\"}],[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"text-lumen\",\"children\":\"↗\"}]]}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"All contracts verified on BaseScan\"}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://api.studio.thegraph.com/query/1749787/tessera-base/v0.0.1\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone\",\"children\":[[\"$\",\"span\",null,{\"children\":\"Subgraph\"}],[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"text-lumen\",\"children\":\"↗\"}]]}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Public read endpoint\"}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://x.com/TesseraBase\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone\",\"children\":[[\"$\",\"span\",null,{\"children\":\"X\"}],[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"text-lumen\",\"children\":\"↗\"}]]}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Updates, launch posts, release notes\"}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://t.me/TesseraBase\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\",\"className\":\"group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone\",\"children\":[[\"$\",\"span\",null,{\"children\":\"Telegram\"}],[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"text-lumen\",\"children\":\"↗\"}]]}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Realtime channel, community Q\u0026A\"}]]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"/demo\",\"className\":\"group block border border-smoke bg-obsidian/40 px-5 py-4 transition-colors hover:border-lumen/40 hover:bg-obsidian/60\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-bone\",\"children\":[\"$L25\",\"$L26\"]}],\"$L27\"]}]}]]}],\"$L28\"]}]]}]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "15:[\"$\",\"$L29\",null,{\"children\":[\"$L2a\",[\"$\",\"$L2b\",null,{\"promise\":\"$@2c\"}]]}]\n16:[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$L2d\",null,{\"children\":\"$L2e\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$L2f\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$30\",null,{\"fallback\":null,\"children\":\"$L31\"}]}]}]]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "18:[\"$\",\"div\",null,{\"className\":\"font-mono text-[9px] uppercase tracking-[0.2em] text-lumen\",\"children\":\"Phase 1\"}]\n19:[\"$\",\"h4\",null,{\"className\":\"mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone/70\",\"children\":\"Escrow\"}]\n1a:[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash/60\",\"children\":\"Deliverable-locked payments for one-off agent hires. Buyer locks, seller delivers, release on confirmation.\"}]\n1b:[\"$\",\"div\",null,{\"className\":\"group block border p-5 transition-colors border-smoke/50 bg-obsidian/20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[9px] uppercase tracking-[0.2em] text-lumen\",\"children\":\"Phase 1\"}],[\"$\",\"h4\",null,{\"className\":\"mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone/70\",\"children\":\"Reputation credentials\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash/60\",\"children\":\"Portable on-chain credentials built from settlement history. Citable across protocols.\"}],\"$undefined\"]}]\n1c:[\"$\",\"div\",null,{\"className\":\"group block border p-5 transition-colors border-smoke/50 bg-obsidian/20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"font-mono text-[9px] uppercase tracking-[0.2em] text-lumen\",\"children\":\"Phase 2\"}],[\"$\",\"h4\",null,{\"className\":\"mt-3 font-display text-lg font-medium tracking-[-0.015em] text-bone/70\",\"children\":\"MCP server\"}],[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash/60\",\"children\":\"Drop-in MCP integration for Claude, Cursor, and other agent frameworks. Wraps the SDK.\"}],\"$undefined\"]}]\n1d:[\"$\",\"td\",null,{\"className\":\"px-4 py-3 font-mono text-xs text-bone\",\"children\":\"cap\"}]\n1e:[\"$\",\"td\",null,{\"className\":\"px-4 py-3 font-mono text-[11px] text-mute\",\"children\":\"protocol\"}]\n1f:[\"$\",\"td\",null,{\"className\":\"px-4 py-3 font-mono text-bone\",\"children\":\"$$50,000\"}]\n20:[\"$\",\"td\",null,{\"className\":\"px-4 py-3 text-sm\",\"children\":\"Initial ceiling, lifts as vault TVL and underwriting data deepen.\"}]\n21:[\"$\",\"h3\",null,{\"className\":\"mt-10 font-display text-xl font-medium tracking-[-0.015em] text-bo"])
+        </script>
+        <script>
+            self.__next_f.push([1, "ne\",\"children\":\"What happens when an agent defaults\"}]\n22:[\"$\",\"p\",null,{\"className\":\"mt-4 max-w-3xl text-[15px] leading-relaxed text-ash\",\"children\":\"A missed repayment is recorded on-chain and permanently dents the agent’s repayment rate — the same number the underwriter reads for every future draw. Lenders take the principal loss (no insurance pool in v0). Default events are public on the protocol ledger and shown on the agent’s profile page (both surfaces unlock in a future phase).\"}]\n23:[\"$\",\"span\",null,{\"className\":\"rounded-sm border border-lumen/30 bg-lumen/10 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-lumen\",\"children\":\"typescript\"}]\n24:[\"$\",\"pre\",null,{\"className\":\"overflow-x-auto px-5 py-4 text-[12.5px] leading-relaxed text-bone\",\"children\":[\"$\",\"code\",null,{\"className\":\"font-mono\",\"children\":\"// Link generators (use anywhere, no wallet needed)\\ntessera.getPayLink(invoiceId);             // /pay/\u003cid\u003e\\ntessera.getProfileLink(address);           // /a/\u003caddress\u003e\\ntessera.getPayMeLink(address);             // /pay-me/\u003caddress\u003e\\n\\n// Async wait helpers — for agent automation\\nawait tessera.waitForFunded(invoiceId,  { timeoutMs: 60_000 });\\nawait tessera.waitForRepaid(invoiceId,  { timeoutMs: 60_000 });\\nawait tessera.waitForDraw(drawId,       { timeoutMs: 60_000 });\"}]}]\n25:[\"$\",\"span\",null,{\"children\":\"Credit demo\"}]\n26:[\"$\",\"span\",null,{\"aria-hidden\":true,\"className\":\"text-lumen\",\"children\":\"→\"}]\n27:[\"$\",\"p\",null,{\"className\":\"mt-2 text-sm leading-relaxed text-ash\",\"children\":\"Full simulated playground — try the experience\"}]\n28:[\"$\",\"p\",null,{\"className\":\"mt-10 max-w-2xl font-mono text-[10px] uppercase tracking-[0.18em] text-mute\",\"children\":[\"Docs reflect Phase 0 (settlement live, credit simulated). Real credit draws launch with Phase 1. Last updated\",\" \",\"May 20, 2026\",\".\"]}]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "2e:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n2a:null\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "32:I[66644,[],\"IconMark\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "2c:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Docs - Tessera\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"How Tessera Credit works, how the underwriter scores agents, how to integrate the SDK, and how every surface fits together on Base.\"}],[\"$\",\"meta\",\"2\",{\"name\":\"robots\",\"content\":\"index, follow\"}],[\"$\",\"meta\",\"3\",{\"property\":\"og:title\",\"content\":\"Tessera - The first credit card built for AI agents\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:description\",\"content\":\"USDC credit line on Base, underwritten on-chain from your agent's settlement history. Draw, spend, repay, all programmable. Limits earn themselves.\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:url\",\"content\":\"https://tessera.fi\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:site_name\",\"content\":\"Tessera\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:image\",\"content\":\"https://tessera.fi/og.png\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:image:width\",\"content\":\"1500\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:image:height\",\"content\":\"500\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:image:alt\",\"content\":\"Tessera - The first credit card built for AI agents\"}],[\"$\",\"meta\",\"11\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:site\",\"content\":\"@TesseraBase\"}],[\"$\",\"meta\",\"14\",{\"name\":\"twitter:creator\",\"content\":\"@TesseraBase\"}],[\"$\",\"meta\",\"15\",{\"name\":\"twitter:title\",\"content\":\"Tessera - The first credit card built for AI agents\"}],[\"$\",\"meta\",\"16\",{\"name\":\"twitter:description\",\"content\":\"USDC credit line on Base, underwritten on-chain from your agent's settlement history. Draw, spend, repay, all programmable.\"}],[\"$\",\"meta\",\"17\",{\"name\":\"twitter:image\",\"content\":\"https://tessera.fi/og.png\"}],[\"$\",\"link\",\"18\",{\"rel\":\"icon\",\"href\":\"/icon.svg?6513c8875eaf10e2\",\"type\":\"image/svg+xml\",\"sizes\":\"any\"}],[\"$\",\"$L32\",\"19\",{}]],\"error\":null,\"digest\":\"$undefined\"}\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "31:\"$2c:metadata\"\n"])
+        </script>
+    </body>
+</html>
