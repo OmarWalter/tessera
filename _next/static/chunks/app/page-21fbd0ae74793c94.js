@@ -657,7 +657,7 @@
                       title: "Community",
                       children: [
                         (0, s.jsx)("a", {
-                          href: "https://x.com/TesseraBase",
+                          href: "https://x.com/tesseracoin",
                           target: "_blank",
                           rel: "noreferrer",
                           children: "X ↗",
